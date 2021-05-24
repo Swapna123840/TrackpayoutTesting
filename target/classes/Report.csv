@@ -1,0 +1,17 @@
+﻿ID,CUSTOMER NAME,MORE RECEIPENT,CATEGORY NAME,PO NUMBER,INVOICE NUMBER,INVOICE DATE,INVOICE AMOUNT,IGST,SGST,CGST,DESCRIPTION,PAYMENT TERM (in days),PAYMENT DUE DATE,START REMINDER FROM,PAYMENT STATUS,PAYMENT TYPE,PAYMENT DATE,REMAING DUE DAYS,ATTACHMENT (1 for YES / 0 for NO)
+62,"Contisoft technolgies LLp","bishirgogari@gmail.com","Software","C0005-0000012345","878970","May 3, 2021","₹ 45000","0","4050","4050","SaaS Services",50,"Apr 27, 2021",5,0,"","",-16,0
+63,"Opera Private Ltd","bishirgogari@gmail.com","Hardware","PO/202-21-0008758758","90870987","May 3, 2021","₹ 900000","162000","0","0","IBM Server L490",3,"Apr 16, 2021",5,0,"s","",-27,0
+64,"A R Corporation","swapna@contisofttechno.com","Software","89","90","May 3, 2021","₹ 60000","0","0","0","nm",100,"Jul 18, 2021",99,1,"","",66,0
+65,"Enzigma soft pvt ltd","swapna@contisofttechno.com","Construction","9","79","May 3, 2021","₹ 50000","0","0","0","iiii",50,"May 29, 2021",1,0,"","",16,0
+66,"Enzigma soft pvt ltd","swapna@contisofttechno.com","Legal","121","78","May 3, 2021","₹ 32323","0","0","0","DSDDD",50,"May 31, 2022",1,0,"","",383,0
+67,"Contisoft technolgies LLp","rohit@contisofttechno.com","Software","C0005-0000012345","876589","May 3, 2021","₹ 45000","0","500","500","MS office License",50,"May 21, 2021",10,0,"","",8,1
+68,"Opera Private Ltd","swapna@contisofttechno.com","Hardware","77","55","May 3, 2021","₹ 90000","0","0","0","sanxnxn",7,"Apr 20, 2021",2,1,"neft","",-23,0
+69,"Contisoft technolgies LLp","swapna@contisofttechno.com","Construction","3243","212","May 3, 2021","₹ 900000","0","12","8","sdddd",66,"Jun 18, 2021",7,0,"","",36,0
+70,"Enzigma soft pvt ltd","swapna@contisofttechno.com","Legal","234","224","May 3, 2021","₹ 32323","2","0","0","wddddd",50,"Jun 3, 2021",7,0,"","",21,0
+71,"Enzigma soft pvt ltd","swapna@contisofttechno.com","Hardware","w3","21w","May 3, 2021","₹ 60000","0","0","0","wqww",50,"Jun 7, 2021",10,0,"","",25,0
+73,"A R Corporation","bishir@contisofttechno.com","Hardware","C0005-0000012345","9817345","May 3, 2021","₹ 45000","0","2250","2250","TEST",100,"Jul 10, 2021",10,1,"","",58,0
+75,"Contisoft technolgies LLp","","Hardware","87689","8709870","May 3, 2021","₹ 98087","0","657","657","Test",50,"Apr 30, 2021",5,0,"","",-13,0
+77,"A R Corporation","","Hardware","PO/202-21-00087587876","65875","May 3, 2021","₹ 980000","0","9000","9000","Laptop AMC",100,"Apr 28, 2021",2,1,"","",-15,0
+79,"Contisoft technolgies LLp","swapna@contisofttechno.com","Legal","382","219","May 3, 2021","₹ 32323","0","43","44","fsfdadg",50,"Jun 15, 2021",1,0,"","",33,0
+80,"A R Corporation","swapna@contisofttechno.com","acc engineering","k1","s1","May 3, 2021","₹ 60000","0","1","12","mbvv",5,"May 1, 2021",1,0,"","",-12,0
+81,"balaji enterprisess","","Software","00","76","May 10, 2021","₹ 25000","0","2","4","Invoice of Bajaj enterprises for 25k.",5,"May 15, 2021",2,1,"cash","May 11, 2021",2,0

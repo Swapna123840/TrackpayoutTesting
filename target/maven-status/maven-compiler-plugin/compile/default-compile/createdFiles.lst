@@ -1,0 +1,4 @@
+pages\LoginPage.class
+Helpers\TestHelpers.class
+SetUp\TestSetUp.class
+pages\HomePage.class

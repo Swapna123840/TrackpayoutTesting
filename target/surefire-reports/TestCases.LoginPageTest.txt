@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestCases.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.801 sec <<< FAILURE!
+setUp(TestCases.LoginPageTest)  Time elapsed: 0.645 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Swapna\eclipse-workspace\TrackpayoutTestingC:\Users\Swapna\eclipse-workspace\TrackpayoutTesting\src\main\resources\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at SetUp.TestSetUp.initialization(TestSetUp.java:34)
+	at TestCases.LoginPageTest.setUp(LoginPageTest.java:22)
+
