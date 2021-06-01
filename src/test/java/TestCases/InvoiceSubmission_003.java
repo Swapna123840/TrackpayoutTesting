@@ -40,7 +40,13 @@ public class InvoiceSubmission_003 extends TestSetUp {
 		
 		invsub=new InvoiceSubmissionPage();
 		
-		invsub.ClickSubmitInvoicebtn();
+		String refno=invsub.ClickSubmitInvoicebtn();
+
+		//invsub.ClickSubmitInvoicebtn();
+		
+		invsub.search(refno);
+		
+		invsub.View_MarkAsDelivered_Delete();
 	}
 
 	@AfterMethod

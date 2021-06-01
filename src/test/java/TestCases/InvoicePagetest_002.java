@@ -11,6 +11,7 @@ import pages.BasePage;
 import pages.Homepage;
 import pages.InvoicePage;
 import pages.LoginPage;
+import pages.PaidInvoicesPage;
 
 public class InvoicePagetest_002 extends TestSetUp {
 
@@ -19,7 +20,7 @@ public class InvoicePagetest_002 extends TestSetUp {
 	InvoicePage invoicepage;
 	BasePage basepage;
 	AllInvoicePage allinvoicepage;
-
+	PaidInvoicesPage paidinvoicepage;
 	public InvoicePagetest_002() {
 
 		super();
@@ -46,7 +47,7 @@ public class InvoicePagetest_002 extends TestSetUp {
 
 		invoicepage = new InvoicePage();
 		
-		invoicepage.AddInvoice();
+		String invno=invoicepage.AddPaidInvoice();
 		logger.info("invoice added ");
 		
 		driver.navigate().refresh();
@@ -59,13 +60,35 @@ public class InvoicePagetest_002 extends TestSetUp {
 
 		allinvoicepage = new AllInvoicePage();
 		
-		allinvoicepage.searchallinvoice();
+		allinvoicepage.searchallinvoice(invno);
 		
-		logger.info("Added invoice is searched ");
+		
+		logger.info("Added invoice is searched.....TC_003 TestCaseReport ");
 
+		allinvoicepage.Report_Download();
+		
+		logger.info("Report download ");
+
+		
+		allinvoicepage.View_Edit_Delete_Invoice();
+		
+		logger.info("view,edit,delete invoice");
+
+		
+		basepage.ClickPaidInvoices();
+		
+		paidinvoicepage=new PaidInvoicesPage();
+		
+		paidinvoicepage.searchpaidinvoice(invno);
+		
+		paidinvoicepage.view_Edit_Delete_Paidinvoice();
+		
+		logger.info("view,edit,delete invoice");
 
 	}
 
+	
+	
 	//For tally.......................
 	/*@Test
 	public void AddAttachments() {
@@ -97,12 +120,15 @@ public class InvoicePagetest_002 extends TestSetUp {
 
 		allinvoicepage = new AllInvoicePage();
 		
-		allinvoicepage.searchallinvoice();
+		allinvoicepage.searchallinvoice("213");
 		
 		logger.info("Added invoice is searched ");
+		
 
 	}
 
+	
+	
 
 	@AfterMethod
 	public void tearDown() {

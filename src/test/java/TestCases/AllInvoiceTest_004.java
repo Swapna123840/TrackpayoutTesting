@@ -40,11 +40,13 @@ public class AllInvoiceTest_004 extends TestSetUp {
 	}
 
 	@Test
-	public void verifyInvoice() throws InterruptedException {
+	public void AllInvoice() throws InterruptedException {
 
 		allinvoicepage = new AllInvoicePage();
 
-		allinvoicepage.searchallinvoice();
+		//allinvoicepage.Report_Download();........not working
+		
+		allinvoicepage.View_Edit_Delete_Invoice();
 	}
 
 	@AfterMethod

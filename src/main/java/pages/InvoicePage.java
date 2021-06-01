@@ -36,11 +36,11 @@ public class InvoicePage extends TestSetUp {
 	@FindBy(id = "po_no")
 	WebElement Po_No;
 
-	@FindBy(id = "invoice_no")	
-	 WebElement Inv_no;
-	
+	@FindBy(id = "invoice_no")
+	WebElement Inv_no;
+
 //span[@class='dropdown-btn']....xpath
-	
+
 	@FindBy(id = "invoice_date")
 	WebElement Inv_date;
 
@@ -106,9 +106,7 @@ public class InvoicePage extends TestSetUp {
 
 	@FindBy(xpath = "//button[@title='Submit Invoice!']")
 	WebElement Bulkuploadsubmitbtn;
-	
-	
-	
+
 	public InvoicePage() {
 
 		PageFactory.initElements(driver, this);
@@ -116,11 +114,11 @@ public class InvoicePage extends TestSetUp {
 		TestHelpers.waitforpageload(AddInvoice);
 
 	}
-
 	
 	
+	// Add Paid Invoice.......................
 	
-	public void  AddInvoice()  {
+	public String AddPaidInvoice() {
 
 		TestHelpers.clickelement(AddInvoice);
 
@@ -130,37 +128,31 @@ public class InvoicePage extends TestSetUp {
 
 		TestHelpers.selectByIndex(SelectCat, 1);
 
-		TestHelpers.addtext(Morereceipients, TestHelpers.randomestring()+"@gmail.com");
-
-		
-		//Morereceipients.sendKeys(props.getProperty("MoreReceipients"));
+		TestHelpers.addtext(Morereceipients, TestHelpers.randomestring() + "@gmail.com");
 
 		TestHelpers.addtext(Po_No, props.getProperty("POno"));
-		
-           String text=	TestHelpers.addtext(Inv_no, TestHelpers.randomeNum());
-           System.out.println(text);
 
-			
+		//store random string in variable then use in search field
+		String text = TestHelpers.randomeNum();
+		TestHelpers.addtext(Inv_no, text);
+		System.out.println(text);
+
 		TestHelpers.inputdate("invoice_date", props.getProperty("SelInvDt"));
 
 		TestHelpers.addtext(Inv_amount, props.getProperty("Invoiceamt"));
-
-		
 
 		if (igst.isEnabled()) {
 
 			TestHelpers.addtext(igst, props.getProperty("Igst"));
 
-
 		} else {
-			
+
 			TestHelpers.addtext(sgst, props.getProperty("sgst"));
 
 			TestHelpers.addtext(cgst, props.getProperty("cgst"));
 
-		
 		}
-		
+
 		TestHelpers.addtext(description, props.getProperty("Desc"));
 
 		TestHelpers.addtext(pay_term, props.getProperty("Payterm"));
@@ -176,100 +168,153 @@ public class InvoicePage extends TestSetUp {
 		if (!checkboxpaidinvoice.isSelected()) {
 
 			checkboxpaidinvoice.click();
-			
+
 			TestHelpers.addtext(Payment_type, props.getProperty("paymentType"));
 
-			
 			TestHelpers.inputdate("payment_date", props.getProperty("paydt"));
-			
-			
+
 		}
 
-	//	TestHelpers.addtext(Attachfile, System.getProperty("user.dir") + "/src/main/resources/Report.csv");
-
-	
 		Attachfile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
 
 		TestHelpers.clickelement(Submitbtn);
 
-		boolean res=driver.getPageSource().contains("Invoice has been created successfully!");
-		
-		if(res==true)
-		{
+		boolean res = driver.getPageSource().contains("Invoice has been created successfully!");
+
+		if (res == true) {
 			Assert.assertTrue(true);
 			logger.info("test case passed....Invoice has been created successfully!");
-			
-		}
-		else
-		{
+
+		} else {
 			logger.info("test case passed....Invoice with this invoice no is already exist!");
 			Assert.assertTrue(true);
 		}
-			
-		//TestHelpers.clickelement(Cancelbtn);
 
-		
+		// TestHelpers.clickelement(Cancelbtn);
 
-	 	Actions actions1 = new Actions(driver);
+		Actions actions1 = new Actions(driver);
 
 		actions1.moveToElement(okalert).click().perform();
-		
+
+		return text;
 		
 	}
+
 	
+	// Add UnPaid Invoice.......................
+
+	public String AddUnPaidInvoice() {
+
+		TestHelpers.clickelement(AddInvoice);
+
+		TestHelpers.waitforpageload(SelectCust);
+
+		TestHelpers.selectByIndex(SelectCust, 1);
+
+		TestHelpers.selectByIndex(SelectCat, 1);
+
+		TestHelpers.addtext(Morereceipients, TestHelpers.randomestring() + "@gmail.com");
+
+		TestHelpers.addtext(Po_No, props.getProperty("POno"));
+
+		//store random string in variable then use in search field
+		String text = TestHelpers.randomeNum();
+		TestHelpers.addtext(Inv_no, text);
+		System.out.println(text);
+
+		TestHelpers.inputdate("invoice_date", props.getProperty("SelInvDt"));
+
+		TestHelpers.addtext(Inv_amount, props.getProperty("Invoiceamt"));
+
+		if (igst.isEnabled()) {
+
+			TestHelpers.addtext(igst, props.getProperty("Igst"));
+
+		} else {
+
+			TestHelpers.addtext(sgst, props.getProperty("sgst"));
+
+			TestHelpers.addtext(cgst, props.getProperty("cgst"));
+
+		}
+
+		TestHelpers.addtext(description, props.getProperty("Desc"));
+
+		TestHelpers.addtext(pay_term, props.getProperty("Payterm"));
+
+		TestHelpers.inputdate("payment_due_date", props.getProperty("Selduedt"));
+
+		TestHelpers.selectByIndex(selectRemainder, 1);
+
+		TestHelpers.selectByIndex(RemainderFrequency, 0);
+
+		TestHelpers.waitforpageload(checkboxpaidinvoice);// wait for load
+
+
+		Attachfile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
+
+		TestHelpers.clickelement(Submitbtn);
+
+		boolean res = driver.getPageSource().contains("Invoice has been created successfully!");
+
+		if (res == true) {
+			Assert.assertTrue(true);
+			logger.info("test case passed....Invoice has been created successfully!");
+
+		} else {
+			logger.info("test case passed....Invoice with this invoice no is already exist!");
+			Assert.assertTrue(true);
+		}
+
+		// TestHelpers.clickelement(Cancelbtn);
+
+		Actions actions1 = new Actions(driver);
+
+		actions1.moveToElement(okalert).click().perform();
+
+		return text;
+	}
+
 	
 
+	
 	public void BulkUpload() {
 
 		TestHelpers.clickelement(BulkUploadFormat);
 
-
 		ChooseFile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/BulkUploadSample2.csv");
 
-		
-		//For Invalid File type..........
-		//ChooseFile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
+		// For Invalid File type..........
+		// ChooseFile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
 
-		
-				
-		boolean res=driver.getPageSource().contains("The number of columns in the CSV file are not matched with format!");
+		boolean res = driver.getPageSource()
+				.contains("The number of columns in the CSV file are not matched with format!");
 
-		
-		if(res==true)
-		{
+		if (res == true) {
 			Assert.assertTrue(true);
 			logger.info("test case passed....The number of columns in the CSV file are not matched with format!");
-			
-		}
-		else
-		{
+
+		} else {
 			logger.info("test case passed....Bulkupload file added");
 			Assert.assertTrue(true);
 
 			Bulkuploadsubmitbtn.click();
 
 		}
-		
 
 	}
 
-	
-	
-	//For tally invoice..........
-	
-	/*public void chooseAttachment() {
-		
-		TestHelpers.waitforpageload(Attachfile);
-		
-		Attachfile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
-		
-		driver.navigate().refresh();
-	}*/
+	// For tally invoice..........
 
-	
-	 
+	/*
+	 * public void chooseAttachment() {
+	 * 
+	 * TestHelpers.waitforpageload(Attachfile);
+	 * 
+	 * Attachfile.sendKeys(System.getProperty("user.dir") +
+	 * "/src/main/resources/Report.csv");
+	 * 
+	 * driver.navigate().refresh(); }
+	 */
 
-
- }
-
-
+}

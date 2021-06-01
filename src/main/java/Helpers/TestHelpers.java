@@ -1,12 +1,17 @@
 package Helpers;
 
+import java.util.List;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import SetUp.TestSetUp;
 
@@ -81,6 +86,7 @@ public class TestHelpers extends TestSetUp {
  	
   }
 	// From date-To date calender
+	
 	public static void enterdate(WebElement element_id, String date) {
 	
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -88,6 +94,51 @@ public class TestHelpers extends TestSetUp {
 	js.executeScript("arguments[0].value = arguments[1]", element_id , date);
 	js.executeScript("arguments[0].value = arguments[1]", element_id, date);
 
-	}	
+
+}	
+	//Select option from dropdown.......
+	
+	public static void selectOptionFromDroDown(WebElement ele, String value) {
+		Select drp=new Select(ele);
+		
+		List<WebElement> alloptions=drp.getOptions();
+		
+		for(WebElement option:alloptions) 
+		{
+			if(option.getText().equals(value)) 
+			{
+				option.click();
+			}
+		}
+				
+	}
+
+//Scroll down.........	
+	
+	public static void scrollheight(WebElement ele) {
+		
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+
+	js.executeScript("arguments[0].scrollIntoView();", ele);
+	}
+	
+	//Action Click element..........
+	public static void Actionclick(WebElement element) {
+		
+	 Actions actions = new Actions(driver);
+     actions.moveToElement(element).perform();
+     
+	}
+	
+	//input date.....
+	public static void inputdates(WebElement element, String date) {
+
+		WebElement dateBox = element;
+
+		dateBox.sendKeys(date);
+
+		dateBox.sendKeys(Keys.TAB);
+		}
+	
 }
 

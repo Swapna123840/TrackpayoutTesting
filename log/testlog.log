@@ -440,3 +440,1077 @@
 2021-05-24 13:54:07,301 - TrackPayout -INFO - Download bulk upload file 
 2021-05-24 13:54:12,241 - TrackPayout -INFO - All Invoices page displayed 
 2021-05-24 13:54:14,108 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 13:41:48,994 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 13:42:00,631 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 13:42:00,912 - TrackPayout -INFO - invoice added 
+2021-05-27 13:42:04,654 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 13:42:06,253 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 13:44:05,021 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 13:44:16,482 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 13:44:16,871 - TrackPayout -INFO - invoice added 
+2021-05-27 13:44:21,071 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 13:45:56,171 - TrackPayout -INFO - Search
+2021-05-27 13:45:56,173 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 14:11:50,448 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 14:11:53,912 - TrackPayout -INFO - test case passed....Bulkupload file added
+2021-05-27 14:11:54,159 - TrackPayout -INFO - Download bulk upload file 
+2021-05-27 14:11:57,630 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 14:11:59,650 - TrackPayout -INFO - Search
+2021-05-27 14:11:59,650 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 14:18:01,542 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 14:18:13,434 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 14:18:13,685 - TrackPayout -INFO - invoice added 
+2021-05-27 14:18:18,077 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 14:18:19,837 - TrackPayout -INFO - Search
+2021-05-27 14:18:19,838 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 14:20:09,722 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 14:20:22,724 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 14:20:23,018 - TrackPayout -INFO - invoice added 
+2021-05-27 14:20:27,704 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 14:20:29,471 - TrackPayout -INFO - Search
+2021-05-27 14:20:29,472 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 14:20:30,531 - TrackPayout -INFO - Report download
+2021-05-27 14:22:09,719 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 14:22:22,722 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 14:22:22,971 - TrackPayout -INFO - invoice added 
+2021-05-27 14:22:27,288 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 14:22:29,021 - TrackPayout -INFO - Search
+2021-05-27 14:22:29,022 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 14:22:30,054 - TrackPayout -INFO - Report download
+2021-05-27 14:22:30,372 - TrackPayout -INFO - Report download
+2021-05-27 14:26:51,515 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 14:27:04,660 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 14:27:04,920 - TrackPayout -INFO - invoice added 
+2021-05-27 14:27:09,080 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 14:27:42,991 - TrackPayout -INFO - Search
+2021-05-27 14:27:42,992 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 14:27:43,399 - TrackPayout -INFO - Report download
+2021-05-27 14:27:47,786 - TrackPayout -INFO - View Rfp
+2021-05-27 14:30:06,031 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 14:32:51,964 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 14:33:04,710 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 14:33:05,048 - TrackPayout -INFO - invoice added 
+2021-05-27 14:33:09,214 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 14:33:11,344 - TrackPayout -INFO - Search
+2021-05-27 14:33:11,345 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 15:37:55,510 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 15:38:09,063 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 15:38:09,390 - TrackPayout -INFO - invoice added 
+2021-05-27 15:38:13,432 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 15:38:15,532 - TrackPayout -INFO - Search
+2021-05-27 15:38:15,533 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 15:39:34,953 - TrackPayout -INFO - Report download
+2021-05-27 15:39:35,251 - TrackPayout -INFO - View Rfp
+2021-05-27 15:45:22,448 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 15:45:35,790 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 15:45:36,041 - TrackPayout -INFO - invoice added 
+2021-05-27 15:45:40,512 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 15:45:42,451 - TrackPayout -INFO - Search
+2021-05-27 15:45:42,451 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 15:45:43,736 - TrackPayout -INFO - Report download
+2021-05-27 15:45:44,030 - TrackPayout -INFO - View Rfp
+2021-05-27 15:48:21,395 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 15:49:42,565 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 15:49:55,590 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 15:49:55,860 - TrackPayout -INFO - invoice added 
+2021-05-27 15:50:00,562 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 15:50:02,477 - TrackPayout -INFO - Search
+2021-05-27 15:50:02,477 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 15:50:03,505 - TrackPayout -INFO - Report download
+2021-05-27 15:50:03,506 - TrackPayout -INFO - Report download 
+2021-05-27 15:55:25,537 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 15:55:38,741 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 15:55:39,045 - TrackPayout -INFO - invoice added 
+2021-05-27 15:55:43,667 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 15:55:45,742 - TrackPayout -INFO - Search
+2021-05-27 15:55:45,743 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:02:46,107 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 16:02:58,728 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 16:02:58,994 - TrackPayout -INFO - invoice added 
+2021-05-27 16:03:03,782 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 16:03:05,951 - TrackPayout -INFO - Search
+2021-05-27 16:03:05,953 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:03:07,449 - TrackPayout -INFO - Report download
+2021-05-27 16:03:07,450 - TrackPayout -INFO - Report download 
+2021-05-27 16:05:21,658 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 16:05:34,879 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 16:05:35,237 - TrackPayout -INFO - invoice added 
+2021-05-27 16:05:40,332 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 16:05:42,267 - TrackPayout -INFO - Search
+2021-05-27 16:05:42,268 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:19:15,068 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 16:19:29,407 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 16:19:29,773 - TrackPayout -INFO - invoice added 
+2021-05-27 16:19:34,149 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 16:19:37,168 - TrackPayout -INFO - Search
+2021-05-27 16:19:37,169 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:22:04,997 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 16:22:21,962 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 16:22:22,286 - TrackPayout -INFO - invoice added 
+2021-05-27 16:22:26,801 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 16:22:29,100 - TrackPayout -INFO - Search
+2021-05-27 16:22:29,102 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:24:36,279 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 16:24:50,150 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 16:24:50,537 - TrackPayout -INFO - invoice added 
+2021-05-27 16:24:55,045 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 16:24:56,676 - TrackPayout -INFO - Search
+2021-05-27 16:24:56,676 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:28:01,627 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 16:28:13,950 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 16:28:14,290 - TrackPayout -INFO - invoice added 
+2021-05-27 16:28:18,638 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 16:28:20,694 - TrackPayout -INFO - Search
+2021-05-27 16:28:20,695 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:31:42,941 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 16:31:56,285 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 16:31:56,533 - TrackPayout -INFO - invoice added 
+2021-05-27 16:32:00,825 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 16:32:02,756 - TrackPayout -INFO - Search
+2021-05-27 16:32:02,757 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 16:59:58,678 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 17:00:10,908 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 17:00:11,297 - TrackPayout -INFO - invoice added 
+2021-05-27 17:00:15,860 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 17:00:17,473 - TrackPayout -INFO - Search
+2021-05-27 17:00:17,473 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:09:37,774 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:09:51,499 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:09:51,789 - TrackPayout -INFO - invoice added 
+2021-05-27 18:10:22,132 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:10:24,612 - TrackPayout -INFO - Search
+2021-05-27 18:10:24,613 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:14:33,785 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:23:55,769 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:24:08,920 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:24:09,243 - TrackPayout -INFO - invoice added 
+2021-05-27 18:24:14,051 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:24:16,284 - TrackPayout -INFO - Search
+2021-05-27 18:24:16,284 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:28:00,536 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:28:13,732 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:28:14,052 - TrackPayout -INFO - invoice added 
+2021-05-27 18:28:19,591 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:28:21,668 - TrackPayout -INFO - Search
+2021-05-27 18:28:21,668 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:28:24,389 - TrackPayout -INFO - View Invoice
+2021-05-27 18:31:58,129 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:32:11,482 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:32:11,809 - TrackPayout -INFO - invoice added 
+2021-05-27 18:32:16,726 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:32:19,347 - TrackPayout -INFO - Search
+2021-05-27 18:32:19,348 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:32:22,625 - TrackPayout -INFO - View Invoice
+2021-05-27 18:36:08,118 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:36:22,747 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:36:23,104 - TrackPayout -INFO - invoice added 
+2021-05-27 18:36:26,979 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:36:28,770 - TrackPayout -INFO - Search
+2021-05-27 18:36:28,771 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:36:31,728 - TrackPayout -INFO - View Invoice
+2021-05-27 18:38:19,619 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:38:32,894 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:38:33,224 - TrackPayout -INFO - invoice added 
+2021-05-27 18:38:38,368 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:38:40,496 - TrackPayout -INFO - Search
+2021-05-27 18:38:40,498 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:38:42,671 - TrackPayout -INFO - View Invoice
+2021-05-27 18:41:36,993 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:41:50,226 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:41:50,532 - TrackPayout -INFO - invoice added 
+2021-05-27 18:41:54,969 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:41:56,985 - TrackPayout -INFO - Search
+2021-05-27 18:41:56,986 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:41:59,521 - TrackPayout -INFO - View Invoice
+2021-05-27 18:42:00,108 - TrackPayout -INFO - Delete Invoice
+2021-05-27 18:42:26,998 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-27 18:43:55,442 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:44:09,734 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:44:10,102 - TrackPayout -INFO - invoice added 
+2021-05-27 18:44:14,749 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:44:16,780 - TrackPayout -INFO - Search
+2021-05-27 18:44:16,781 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:44:19,439 - TrackPayout -INFO - View Invoice
+2021-05-27 18:44:20,352 - TrackPayout -INFO - Edit Invoice
+2021-05-27 18:44:23,471 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 18:47:30,806 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:47:44,635 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:47:44,996 - TrackPayout -INFO - invoice added 
+2021-05-27 18:47:49,889 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:47:51,823 - TrackPayout -INFO - Search
+2021-05-27 18:47:51,824 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:47:54,509 - TrackPayout -INFO - View Invoice
+2021-05-27 18:47:55,362 - TrackPayout -INFO - Edit Invoice
+2021-05-27 18:47:58,492 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 18:47:59,042 - TrackPayout -INFO - Invoice Updated
+2021-05-27 18:48:00,505 - TrackPayout -INFO - Delete Invoice
+2021-05-27 18:50:38,869 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:50:51,986 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:50:52,353 - TrackPayout -INFO - invoice added 
+2021-05-27 18:50:57,217 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:50:59,100 - TrackPayout -INFO - Search
+2021-05-27 18:50:59,101 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:51:01,587 - TrackPayout -INFO - View Invoice
+2021-05-27 18:51:02,378 - TrackPayout -INFO - Edit Invoice
+2021-05-27 18:51:05,303 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 18:51:05,803 - TrackPayout -INFO - Invoice Updated
+2021-05-27 18:52:12,067 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:52:26,163 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:52:26,442 - TrackPayout -INFO - invoice added 
+2021-05-27 18:52:31,232 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:52:33,610 - TrackPayout -INFO - Search
+2021-05-27 18:52:33,611 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:52:36,157 - TrackPayout -INFO - View Invoice
+2021-05-27 18:52:37,097 - TrackPayout -INFO - Edit Invoice
+2021-05-27 18:52:40,304 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 18:52:40,803 - TrackPayout -INFO - Invoice Updated
+2021-05-27 18:53:51,449 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:54:04,425 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:54:04,730 - TrackPayout -INFO - invoice added 
+2021-05-27 18:54:09,265 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:54:11,211 - TrackPayout -INFO - Search
+2021-05-27 18:54:11,214 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:54:13,671 - TrackPayout -INFO - View Invoice
+2021-05-27 18:54:14,488 - TrackPayout -INFO - Edit Invoice
+2021-05-27 18:54:17,533 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 18:54:17,909 - TrackPayout -INFO - Invoice Updated
+2021-05-27 18:57:59,911 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 18:58:13,014 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 18:58:13,368 - TrackPayout -INFO - invoice added 
+2021-05-27 18:58:18,611 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 18:58:20,643 - TrackPayout -INFO - Search
+2021-05-27 18:58:20,644 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 18:58:23,562 - TrackPayout -INFO - View Invoice
+2021-05-27 18:58:24,310 - TrackPayout -INFO - Edit Invoice
+2021-05-27 18:58:27,571 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 18:58:28,119 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:00:32,980 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:00:46,775 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:00:47,112 - TrackPayout -INFO - invoice added 
+2021-05-27 19:00:51,488 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:00:54,067 - TrackPayout -INFO - Search
+2021-05-27 19:00:54,069 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:00:58,443 - TrackPayout -INFO - View Invoice
+2021-05-27 19:00:59,525 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:01:02,766 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:01:03,311 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:05:23,344 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:05:36,830 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:05:37,199 - TrackPayout -INFO - invoice added 
+2021-05-27 19:05:41,722 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:05:43,680 - TrackPayout -INFO - Search
+2021-05-27 19:05:43,680 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:05:46,474 - TrackPayout -INFO - View Invoice
+2021-05-27 19:05:47,507 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:05:50,672 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:05:51,140 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:07:49,813 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:08:03,460 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:08:03,793 - TrackPayout -INFO - invoice added 
+2021-05-27 19:08:08,088 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:08:09,936 - TrackPayout -INFO - Search
+2021-05-27 19:08:09,936 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:08:12,877 - TrackPayout -INFO - View Invoice
+2021-05-27 19:08:13,592 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:08:16,585 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:08:17,131 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:08:54,787 - TrackPayout -INFO - Delete Invoice
+2021-05-27 19:10:49,519 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:11:02,876 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:11:03,211 - TrackPayout -INFO - invoice added 
+2021-05-27 19:11:07,973 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:11:09,777 - TrackPayout -INFO - Search
+2021-05-27 19:11:09,778 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:11:12,857 - TrackPayout -INFO - View Invoice
+2021-05-27 19:11:13,953 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:11:17,059 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:11:17,482 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:11:17,758 - TrackPayout -INFO - Delete Invoice
+2021-05-27 19:28:31,154 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:31:19,027 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:31:25,822 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:31:26,045 - TrackPayout -INFO - invoice added 
+2021-05-27 19:31:28,657 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:31:29,850 - TrackPayout -INFO - Search
+2021-05-27 19:31:29,850 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:31:32,029 - TrackPayout -INFO - View Invoice
+2021-05-27 19:31:32,665 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:31:34,014 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:31:34,172 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:31:34,349 - TrackPayout -INFO - Delete Invoice
+2021-05-27 19:34:53,162 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:34:58,879 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:34:59,081 - TrackPayout -INFO - invoice added 
+2021-05-27 19:35:01,843 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:35:03,312 - TrackPayout -INFO - Search
+2021-05-27 19:35:03,312 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:35:05,277 - TrackPayout -INFO - View Invoice
+2021-05-27 19:35:05,931 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:35:07,283 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:35:07,495 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:37:40,850 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:37:46,930 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:37:47,143 - TrackPayout -INFO - invoice added 
+2021-05-27 19:37:49,879 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:37:51,021 - TrackPayout -INFO - Search
+2021-05-27 19:37:51,021 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:37:53,278 - TrackPayout -INFO - View Invoice
+2021-05-27 19:37:53,949 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:37:55,275 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:37:55,469 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:43:12,815 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:43:19,236 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:43:19,428 - TrackPayout -INFO - invoice added 
+2021-05-27 19:43:22,164 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:43:23,684 - TrackPayout -INFO - Search
+2021-05-27 19:43:23,684 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:43:25,941 - TrackPayout -INFO - View Invoice
+2021-05-27 19:43:26,507 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:43:27,837 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:43:27,996 - TrackPayout -INFO - Invoice Updated
+2021-05-27 19:48:36,802 - TrackPayout -INFO - Invoice page is displayed
+2021-05-27 19:48:42,596 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-27 19:48:42,817 - TrackPayout -INFO - invoice added 
+2021-05-27 19:48:45,324 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-27 19:48:46,777 - TrackPayout -INFO - Search
+2021-05-27 19:48:46,778 - TrackPayout -INFO - Added invoice is searched 
+2021-05-27 19:48:48,761 - TrackPayout -INFO - View Invoice
+2021-05-27 19:48:49,433 - TrackPayout -INFO - Edit Invoice
+2021-05-27 19:48:50,589 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-27 19:48:50,744 - TrackPayout -INFO - Invoice Updated
+2021-05-27 20:01:50,887 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:05:14,039 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:06:51,656 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:11:25,553 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:12:35,948 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:14:40,552 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:16:10,908 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:18:54,247 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:20:20,217 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:20:34,325 - TrackPayout -INFO - invoice no... selected
+2021-05-27 20:29:49,603 - TrackPayout -INFO - invoice no selected
+2021-05-27 20:29:49,783 - TrackPayout -INFO - invoice no... selected
+2021-05-27 21:49:16,450 - TrackPayout -INFO - invoice no selected
+2021-05-27 21:53:34,461 - TrackPayout -INFO - invoice no selected
+2021-05-27 21:58:11,291 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:04:51,355 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:09:17,598 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:09:19,238 - TrackPayout -INFO - invoice no... selected
+2021-05-27 22:13:30,095 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:13:32,261 - TrackPayout -INFO - invoice no... selected
+2021-05-27 22:14:52,232 - TrackPayout -INFO - cancel
+2021-05-27 22:20:40,383 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:24:52,110 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:26:34,378 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:27:42,677 - TrackPayout -INFO - invoice no... selected
+2021-05-27 22:27:45,882 - TrackPayout -INFO - cancel
+2021-05-27 22:43:12,796 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:43:31,312 - TrackPayout -INFO - invoice no... selected
+2021-05-27 22:43:34,515 - TrackPayout -INFO - cancel
+2021-05-27 22:46:17,050 - TrackPayout -INFO - invoice no selected
+2021-05-27 22:46:30,573 - TrackPayout -INFO - invoice no... selected
+2021-05-27 22:46:53,199 - TrackPayout -INFO - submit
+2021-05-27 22:46:53,403 - TrackPayout -INFO - created
+2021-05-27 22:46:54,794 - TrackPayout -INFO - test case passed...Invoice with this invoice no is already exist!
+2021-05-27 23:56:56,388 - TrackPayout -INFO - invoice no selected
+2021-05-27 23:59:00,972 - TrackPayout -INFO - invoice no selected
+2021-05-27 23:59:18,810 - TrackPayout -INFO - invoice no... selected
+2021-05-27 23:59:31,702 - TrackPayout -INFO - submit
+2021-05-27 23:59:31,899 - TrackPayout -INFO - created
+2021-05-27 23:59:32,917 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:01:49,121 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:02:06,014 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:02:18,243 - TrackPayout -INFO - submit
+2021-05-28 00:02:18,433 - TrackPayout -INFO - created
+2021-05-28 00:02:20,327 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:02:44,020 - TrackPayout -INFO - invoice searched
+2021-05-28 00:13:24,393 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:13:41,289 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:13:53,520 - TrackPayout -INFO - submit
+2021-05-28 00:13:53,702 - TrackPayout -INFO - created
+2021-05-28 00:13:55,487 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:14:05,785 - TrackPayout -INFO - invoice searched
+2021-05-28 00:16:14,204 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:16:30,520 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:16:39,045 - TrackPayout -INFO - submit
+2021-05-28 00:16:39,231 - TrackPayout -INFO - created
+2021-05-28 00:16:40,304 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:16:40,800 - TrackPayout -INFO - invoice searched
+2021-05-28 00:27:19,282 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:27:34,015 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:27:41,281 - TrackPayout -INFO - submit
+2021-05-28 00:27:41,464 - TrackPayout -INFO - created
+2021-05-28 00:27:43,637 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:27:44,282 - TrackPayout -INFO - invoice searched
+2021-05-28 00:30:34,053 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:30:48,190 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:30:55,660 - TrackPayout -INFO - submit
+2021-05-28 00:30:55,842 - TrackPayout -INFO - created
+2021-05-28 00:30:57,194 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:30:57,768 - TrackPayout -INFO - invoice searched
+2021-05-28 00:38:21,846 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:38:34,900 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:38:38,939 - TrackPayout -INFO - submit
+2021-05-28 00:42:28,285 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:42:52,503 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:42:55,915 - TrackPayout -INFO - submit
+2021-05-28 00:42:58,000 - TrackPayout -INFO - created
+2021-05-28 00:42:59,720 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:43:00,160 - TrackPayout -INFO - invoice searched
+2021-05-28 00:43:00,517 - TrackPayout -INFO - View submitted Invoice
+2021-05-28 00:46:47,073 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:47:05,852 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:47:09,916 - TrackPayout -INFO - submit
+2021-05-28 00:47:11,846 - TrackPayout -INFO - created
+2021-05-28 00:47:13,171 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:47:13,480 - TrackPayout -INFO - invoice searched
+2021-05-28 00:47:13,748 - TrackPayout -INFO - View submitted Invoice
+2021-05-28 00:50:11,519 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:50:26,059 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:50:29,788 - TrackPayout -INFO - submit
+2021-05-28 00:50:31,655 - TrackPayout -INFO - created
+2021-05-28 00:50:33,084 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:50:33,425 - TrackPayout -INFO - invoice searched
+2021-05-28 00:53:35,028 - TrackPayout -INFO - invoice searched
+2021-05-28 00:55:07,386 - TrackPayout -INFO - invoice no selected
+2021-05-28 00:55:25,141 - TrackPayout -INFO - invoice no... selected
+2021-05-28 00:55:28,731 - TrackPayout -INFO - submit
+2021-05-28 00:55:30,765 - TrackPayout -INFO - created
+2021-05-28 00:55:32,275 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 00:55:32,521 - TrackPayout -INFO - invoice searched
+2021-05-28 00:55:58,952 - TrackPayout -INFO -   Invoice delivered
+2021-05-28 01:02:06,400 - TrackPayout -INFO - invoice no selected
+2021-05-28 01:02:21,314 - TrackPayout -INFO - invoice no... selected
+2021-05-28 01:02:25,279 - TrackPayout -INFO - submit
+2021-05-28 01:02:27,315 - TrackPayout -INFO - created
+2021-05-28 01:02:29,229 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 01:02:29,699 - TrackPayout -INFO - invoice searched
+2021-05-28 01:02:40,257 - TrackPayout -INFO -   Invoice delivered
+2021-05-28 01:03:12,860 - TrackPayout -INFO -  submitted Invoice deleted
+2021-05-28 01:10:07,287 - TrackPayout -INFO - invoice no selected
+2021-05-28 01:10:23,116 - TrackPayout -INFO - invoice no... selected
+2021-05-28 01:10:27,030 - TrackPayout -INFO - submit
+2021-05-28 01:10:29,140 - TrackPayout -INFO - created
+2021-05-28 01:10:30,818 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 01:10:31,315 - TrackPayout -INFO - invoice searched
+2021-05-28 01:10:31,741 - TrackPayout -INFO - View submitted Invoice
+2021-05-28 11:01:54,629 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 11:02:01,422 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 11:02:01,656 - TrackPayout -INFO - invoice added 
+2021-05-28 11:02:04,613 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 11:02:17,062 - TrackPayout -INFO - Search
+2021-05-28 11:02:17,062 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 11:05:46,281 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 11:06:00,194 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 11:06:00,520 - TrackPayout -INFO - invoice added 
+2021-05-28 11:06:05,724 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 11:06:08,877 - TrackPayout -INFO - Search
+2021-05-28 11:06:08,879 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 11:10:05,591 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 11:10:16,891 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 11:10:17,220 - TrackPayout -INFO - invoice added 
+2021-05-28 11:10:23,123 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 11:10:26,490 - TrackPayout -INFO - Search
+2021-05-28 11:10:26,490 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 11:10:26,491 - TrackPayout -INFO - Report download 
+2021-05-28 11:10:29,460 - TrackPayout -INFO - View Invoice
+2021-05-28 11:10:30,187 - TrackPayout -INFO - Edit Invoice
+2021-05-28 11:10:32,922 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-28 11:10:33,353 - TrackPayout -INFO - Invoice Updated
+2021-05-28 11:13:34,835 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 11:13:39,004 - TrackPayout -INFO - test case passed....Bulkupload file added
+2021-05-28 11:13:39,297 - TrackPayout -INFO - Download bulk upload file 
+2021-05-28 11:13:45,994 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 11:13:47,759 - TrackPayout -INFO - Search
+2021-05-28 11:13:47,760 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 11:14:57,213 - TrackPayout -INFO - invoice no selected
+2021-05-28 11:15:16,531 - TrackPayout -INFO - invoice no... selected
+2021-05-28 11:15:20,704 - TrackPayout -INFO - submit
+2021-05-28 11:15:22,656 - TrackPayout -INFO - created
+2021-05-28 11:15:24,284 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 11:15:24,767 - TrackPayout -INFO - invoice searched
+2021-05-28 11:15:25,194 - TrackPayout -INFO - View submitted Invoice
+2021-05-28 11:17:26,042 - TrackPayout -INFO - invoice no selected
+2021-05-28 11:17:41,134 - TrackPayout -INFO - invoice no... selected
+2021-05-28 11:17:44,279 - TrackPayout -INFO - submit
+2021-05-28 11:17:46,376 - TrackPayout -INFO - created
+2021-05-28 11:17:48,663 - TrackPayout -INFO - test case passed....Invoice has been submitted successfully!
+2021-05-28 11:17:49,291 - TrackPayout -INFO - invoice searched
+2021-05-28 11:18:01,197 - TrackPayout -INFO - View submitted Invoice
+2021-05-28 11:18:02,368 - TrackPayout -INFO -   Invoice delivered
+2021-05-28 15:09:02,086 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:09:15,430 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:09:15,769 - TrackPayout -INFO - invoice added 
+2021-05-28 15:12:13,406 - TrackPayout -INFO - search paid invoice
+2021-05-28 15:16:25,585 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:16:38,465 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:16:38,879 - TrackPayout -INFO - invoice added 
+2021-05-28 15:16:44,827 - TrackPayout -INFO - search paid invoice
+2021-05-28 15:17:02,806 - TrackPayout -INFO - View paid invoice
+2021-05-28 15:22:15,700 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:22:29,748 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:22:30,068 - TrackPayout -INFO - invoice added 
+2021-05-28 15:22:36,400 - TrackPayout -INFO - search paid invoice
+2021-05-28 15:22:38,049 - TrackPayout -INFO - View paid invoice
+2021-05-28 15:26:02,080 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:26:15,795 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:26:16,156 - TrackPayout -INFO - invoice added 
+2021-05-28 15:26:22,775 - TrackPayout -INFO - search paid invoice
+2021-05-28 15:26:24,733 - TrackPayout -INFO - View paid invoice
+2021-05-28 15:26:37,290 - TrackPayout -INFO - close paid invoice
+2021-05-28 15:34:24,746 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:34:38,369 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:34:38,605 - TrackPayout -INFO - invoice added 
+2021-05-28 15:34:44,762 - TrackPayout -INFO - search paid invoice
+2021-05-28 15:34:46,155 - TrackPayout -INFO - View paid invoice
+2021-05-28 15:34:46,582 - TrackPayout -INFO - close paid invoice
+2021-05-28 15:36:07,119 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:36:20,999 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:36:21,380 - TrackPayout -INFO - invoice added 
+2021-05-28 15:36:28,537 - TrackPayout -INFO - search paid invoice
+2021-05-28 15:36:30,556 - TrackPayout -INFO - View paid invoice
+2021-05-28 15:36:30,999 - TrackPayout -INFO - close paid invoice
+2021-05-28 15:36:46,507 - TrackPayout -INFO - download attachment
+2021-05-28 15:47:07,844 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:47:21,794 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:47:22,144 - TrackPayout -INFO - invoice added 
+2021-05-28 15:47:26,407 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 15:47:28,368 - TrackPayout -INFO - Search
+2021-05-28 15:47:28,369 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 15:47:28,370 - TrackPayout -INFO - Report download 
+2021-05-28 15:47:33,830 - TrackPayout -INFO - View Invoice
+2021-05-28 15:47:35,095 - TrackPayout -INFO - Edit Invoice
+2021-05-28 15:47:37,765 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-28 15:47:38,254 - TrackPayout -INFO - Invoice Updated
+2021-05-28 15:49:40,811 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 15:49:54,533 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 15:49:54,831 - TrackPayout -INFO - invoice added 
+2021-05-28 15:49:59,858 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 15:50:02,362 - TrackPayout -INFO - Search
+2021-05-28 15:50:02,363 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 15:50:02,364 - TrackPayout -INFO - Report download 
+2021-05-28 15:50:06,223 - TrackPayout -INFO - View Invoice
+2021-05-28 15:50:07,046 - TrackPayout -INFO - Edit Invoice
+2021-05-28 15:50:10,055 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-28 15:50:10,594 - TrackPayout -INFO - Invoice Updated
+2021-05-28 15:50:51,184 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-28 15:50:53,298 - TrackPayout -INFO - search paid invoice
+2021-05-28 15:50:55,114 - TrackPayout -INFO - View paid invoice
+2021-05-28 15:50:55,500 - TrackPayout -INFO - close paid invoice
+2021-05-28 15:51:32,049 - TrackPayout -INFO - download attachment
+2021-05-28 15:51:37,973 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-28 16:28:59,700 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 16:29:11,911 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 16:29:24,028 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 16:31:48,842 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 16:32:01,154 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 16:32:01,412 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 16:33:49,982 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 16:34:01,732 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 16:34:02,016 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 16:35:40,929 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 16:35:53,610 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 16:35:53,979 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 16:35:58,018 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 16:39:13,063 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 16:39:25,511 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 16:39:25,818 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 16:39:30,448 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 16:39:32,282 - TrackPayout -INFO - Search
+2021-05-28 16:39:49,798 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 16:39:51,838 - TrackPayout -INFO - View Invoice
+2021-05-28 16:39:53,241 - TrackPayout -INFO - Edit Invoice
+2021-05-28 16:39:55,504 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-28 16:39:55,943 - TrackPayout -INFO - Invoice Updated
+2021-05-28 16:39:55,943 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-28 16:44:53,961 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 16:45:04,849 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 16:45:05,226 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 16:45:09,402 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 16:45:11,624 - TrackPayout -INFO - Search
+2021-05-28 16:45:19,854 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 16:45:21,987 - TrackPayout -INFO - View Invoice
+2021-05-28 16:45:23,426 - TrackPayout -INFO - Edit Invoice
+2021-05-28 16:45:26,050 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-28 16:45:26,589 - TrackPayout -INFO - Invoice Updated
+2021-05-28 16:45:26,590 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-28 16:58:08,178 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 16:58:20,411 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 16:58:20,729 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 17:02:36,812 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 17:02:50,455 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 17:02:50,822 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 17:04:50,991 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 17:05:03,248 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 17:05:03,576 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 17:09:36,219 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 17:11:12,060 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 17:11:24,567 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 17:11:24,889 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 17:13:46,104 - TrackPayout -INFO - Invoice page is displayed
+2021-05-28 17:13:59,020 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-28 17:13:59,381 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 17:14:16,165 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-28 17:14:16,393 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-28 17:14:18,884 - TrackPayout -INFO - Search
+2021-05-28 17:14:32,722 - TrackPayout -INFO - Added invoice is searched 
+2021-05-28 17:14:34,798 - TrackPayout -INFO - View Invoice
+2021-05-28 17:14:36,225 - TrackPayout -INFO - Edit Invoice
+2021-05-28 17:14:39,285 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-28 17:14:39,801 - TrackPayout -INFO - Invoice Updated
+2021-05-28 17:14:39,802 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-29 00:10:37,667 - TrackPayout -INFO - View Invoice
+2021-05-29 00:10:58,514 - TrackPayout -INFO - View Invoice
+2021-05-29 00:13:56,665 - TrackPayout -INFO - View Invoice
+2021-05-29 00:14:08,310 - TrackPayout -INFO - View Invoice
+2021-05-29 00:14:17,971 - TrackPayout -INFO - Invoice Updated
+2021-05-29 00:18:53,853 - TrackPayout -INFO - View Invoice
+2021-05-29 00:24:36,161 - TrackPayout -INFO - View Invoice
+2021-05-29 00:24:49,235 - TrackPayout -INFO - Download Report
+2021-05-29 00:24:55,132 - TrackPayout -INFO - Invoice Updated
+2021-05-29 00:28:46,542 - TrackPayout -INFO - View Invoice
+2021-05-29 00:28:50,064 - TrackPayout -INFO - Download Report
+2021-05-29 00:29:57,853 - TrackPayout -INFO - Invoice Updated
+2021-05-29 00:35:19,080 - TrackPayout -INFO - View Invoice
+2021-05-29 00:35:23,071 - TrackPayout -INFO - Download Report
+2021-05-29 00:38:01,315 - TrackPayout -INFO - View Invoice
+2021-05-29 00:38:05,585 - TrackPayout -INFO - Download Report
+2021-05-29 00:38:11,662 - TrackPayout -INFO - Invoice Updated
+2021-05-29 00:42:26,638 - TrackPayout -INFO - View Invoice
+2021-05-29 00:42:33,142 - TrackPayout -INFO - Download Report
+2021-05-29 00:44:21,650 - TrackPayout -INFO - View Invoice
+2021-05-29 00:44:24,479 - TrackPayout -INFO - Download Report
+2021-05-29 00:44:29,483 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:04:19,076 - TrackPayout -INFO - View Invoice
+2021-05-29 01:04:21,678 - TrackPayout -INFO - Download TooFar Report
+2021-05-29 01:04:26,268 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:10:05,567 - TrackPayout -INFO - View Invoice
+2021-05-29 01:10:06,112 - TrackPayout -INFO - Download todays Report
+2021-05-29 01:10:07,962 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:10:58,394 - TrackPayout -INFO - View Invoice
+2021-05-29 01:10:58,956 - TrackPayout -INFO - Download 30days Report
+2021-05-29 01:11:00,806 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:11:48,937 - TrackPayout -INFO - View Invoice
+2021-05-29 01:11:49,447 - TrackPayout -INFO - Download 60days Report
+2021-05-29 01:14:51,514 - TrackPayout -INFO - View Invoice
+2021-05-29 01:14:51,731 - TrackPayout -INFO - Download todays Report
+2021-05-29 01:14:53,963 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:15:17,633 - TrackPayout -INFO - View Invoice
+2021-05-29 01:15:18,163 - TrackPayout -INFO - Download 90days Report
+2021-05-29 01:15:20,676 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:15:34,625 - TrackPayout -INFO - View Invoice
+2021-05-29 01:15:35,042 - TrackPayout -INFO - Download 30days Report
+2021-05-29 01:15:36,855 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:16:03,455 - TrackPayout -INFO - View Invoice
+2021-05-29 01:16:03,955 - TrackPayout -INFO - Download TooFar Report
+2021-05-29 01:16:06,333 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:16:24,793 - TrackPayout -INFO - View Invoice
+2021-05-29 01:16:25,070 - TrackPayout -INFO - Download 60days Report
+2021-05-29 01:16:27,093 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:16:50,514 - TrackPayout -INFO - test case passed...Invoice with this invoice no is already exist!
+2021-05-29 01:17:13,946 - TrackPayout -INFO - View Invoice
+2021-05-29 01:17:14,393 - TrackPayout -INFO - Download 90days Report
+2021-05-29 01:17:16,223 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:18:02,784 - TrackPayout -INFO - View Invoice
+2021-05-29 01:18:03,396 - TrackPayout -INFO - Download TooFar Report
+2021-05-29 01:18:05,651 - TrackPayout -INFO - Invoice Updated
+2021-05-29 01:18:45,339 - TrackPayout -INFO - test case passed...Invoice with this invoice no is already exist!
+2021-05-29 11:08:33,535 - TrackPayout -INFO - logger
+2021-05-29 11:29:19,162 - TrackPayout -INFO - logger
+2021-05-29 11:37:18,368 - TrackPayout -INFO - logger
+2021-05-29 11:42:04,348 - TrackPayout -INFO - logger
+2021-05-29 11:43:32,629 - TrackPayout -INFO - logger
+2021-05-29 11:47:55,640 - TrackPayout -INFO - logger
+2021-05-29 11:52:14,794 - TrackPayout -INFO - logger
+2021-05-29 11:55:35,185 - TrackPayout -INFO - logger
+2021-05-29 11:57:38,208 - TrackPayout -INFO - logger
+2021-05-29 11:57:50,886 - TrackPayout -INFO - viewpage
+2021-05-29 11:59:08,702 - TrackPayout -INFO - logger
+2021-05-29 11:59:24,542 - TrackPayout -INFO - viewpage
+2021-05-29 12:01:33,960 - TrackPayout -INFO - logger
+2021-05-29 12:01:44,696 - TrackPayout -INFO - viewpage
+2021-05-29 12:01:58,302 - TrackPayout -INFO - Invoice Updated
+2021-05-29 12:05:48,881 - TrackPayout -INFO - logger
+2021-05-29 12:05:58,426 - TrackPayout -INFO - viewpage
+2021-05-29 12:06:05,978 - TrackPayout -INFO - Invoice Updated
+2021-05-29 12:06:23,103 - TrackPayout -INFO - Invoice Remove
+2021-05-29 12:07:36,440 - TrackPayout -INFO - logger
+2021-05-29 12:07:45,770 - TrackPayout -INFO - viewpage
+2021-05-29 12:07:48,023 - TrackPayout -INFO - Invoice Updated
+2021-05-29 12:10:54,347 - TrackPayout -INFO - logger
+2021-05-29 13:05:52,918 - TrackPayout -INFO - viewpage
+2021-05-29 13:05:54,920 - TrackPayout -INFO - Invoice Updated
+2021-05-29 13:06:19,217 - TrackPayout -INFO - Invoice Remove
+2021-05-29 13:06:30,829 - TrackPayout -INFO - Report download
+2021-05-29 13:39:14,642 - TrackPayout -INFO - Account Manager selected
+2021-05-29 13:41:30,035 - TrackPayout -INFO - logger
+2021-05-29 15:29:52,505 - TrackPayout -INFO - View Invoice
+2021-05-29 15:29:53,064 - TrackPayout -INFO - Download todays Report
+2021-05-29 15:29:55,321 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:30:44,711 - TrackPayout -INFO - View Invoice
+2021-05-29 15:30:45,269 - TrackPayout -INFO - Download 30days Report
+2021-05-29 15:30:47,019 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:31:32,345 - TrackPayout -INFO - View Invoice
+2021-05-29 15:31:32,712 - TrackPayout -INFO - Download 60days Report
+2021-05-29 15:31:35,073 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:32:21,533 - TrackPayout -INFO - View Invoice
+2021-05-29 15:32:21,968 - TrackPayout -INFO - Download 90days Report
+2021-05-29 15:32:24,203 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:33:09,147 - TrackPayout -INFO - View Invoice
+2021-05-29 15:33:09,416 - TrackPayout -INFO - Download TooFar Report
+2021-05-29 15:33:11,877 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:33:59,891 - TrackPayout -INFO - test case passed...Invoice with this invoice no is already exist!
+2021-05-29 15:46:01,689 - TrackPayout -INFO - viewpage
+2021-05-29 15:46:04,153 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:46:06,282 - TrackPayout -INFO - Invoice Remove
+2021-05-29 15:49:47,979 - TrackPayout -INFO - logger
+2021-05-29 15:49:58,832 - TrackPayout -INFO - viewpage
+2021-05-29 15:50:03,870 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:50:07,422 - TrackPayout -INFO - Invoice Remove
+2021-05-29 15:50:09,680 - TrackPayout -INFO - Report download
+2021-05-29 15:55:34,011 - TrackPayout -INFO - logger
+2021-05-29 15:55:36,807 - TrackPayout -INFO - viewpage
+2021-05-29 15:55:39,666 - TrackPayout -INFO - Invoice Updated
+2021-05-29 15:55:42,256 - TrackPayout -INFO - Invoice Remove
+2021-05-29 16:00:25,421 - TrackPayout -INFO - logger
+2021-05-29 16:03:15,666 - TrackPayout -INFO - viewpage
+2021-05-29 16:03:25,205 - TrackPayout -INFO - Invoice Updated
+2021-05-29 16:03:25,809 - TrackPayout -INFO - Invoice Remove
+2021-05-29 16:04:54,024 - TrackPayout -INFO - logger
+2021-05-29 16:04:57,503 - TrackPayout -INFO - viewpage
+2021-05-29 16:05:00,441 - TrackPayout -INFO - Invoice Updated
+2021-05-29 16:11:24,136 - TrackPayout -INFO - viewpage
+2021-05-29 16:11:26,755 - TrackPayout -INFO - Invoice Updated
+2021-05-29 16:14:58,518 - TrackPayout -INFO - logger
+2021-05-29 16:15:01,300 - TrackPayout -INFO - viewpage
+2021-05-29 16:15:04,018 - TrackPayout -INFO - Invoice Updated
+2021-05-29 16:18:37,252 - TrackPayout -INFO - logger
+2021-05-29 16:18:44,388 - TrackPayout -INFO - viewpage
+2021-05-29 16:18:48,829 - TrackPayout -INFO - Invoice Updated
+2021-05-29 16:18:49,767 - TrackPayout -INFO - Invoice Remove
+2021-05-29 16:21:36,168 - TrackPayout -INFO - logger
+2021-05-29 16:21:39,643 - TrackPayout -INFO - viewpage
+2021-05-29 16:21:44,106 - TrackPayout -INFO - Invoice Updated
+2021-05-29 16:21:44,685 - TrackPayout -INFO - Invoice Remove
+2021-05-29 16:21:46,352 - TrackPayout -INFO - Report download
+2021-05-29 16:28:13,673 - TrackPayout -INFO - viewpage
+2021-05-29 16:28:17,985 - TrackPayout -INFO - Invoice Updated
+2021-05-29 16:28:19,175 - TrackPayout -INFO - Invoice Remove
+2021-05-29 16:28:20,825 - TrackPayout -INFO - Report By Customer download
+2021-05-29 17:21:41,586 - TrackPayout -INFO - Country selected
+2021-05-29 17:22:10,390 - TrackPayout -INFO - State selected
+2021-05-29 17:22:18,108 - TrackPayout -INFO - City selected
+2021-05-29 17:42:41,964 - TrackPayout -INFO - Country selected
+2021-05-29 17:42:47,882 - TrackPayout -INFO - State selected
+2021-05-29 17:43:23,478 - TrackPayout -INFO - City selected
+2021-05-29 17:47:41,761 - TrackPayout -INFO - Country selected
+2021-05-29 17:47:46,027 - TrackPayout -INFO - viewpage
+2021-05-29 17:47:59,074 - TrackPayout -INFO - Invoice Updated
+2021-05-29 17:47:59,697 - TrackPayout -INFO - Invoice Remove
+2021-05-29 17:54:52,049 - TrackPayout -INFO - Country selected
+2021-05-29 17:55:00,029 - TrackPayout -INFO - State selected
+2021-05-29 17:55:03,074 - TrackPayout -INFO - viewpage
+2021-05-29 18:04:01,282 - TrackPayout -INFO - Country selected
+2021-05-29 18:04:12,528 - TrackPayout -INFO - State selected
+2021-05-29 18:04:34,192 - TrackPayout -INFO - City selected
+2021-05-29 23:04:23,562 - TrackPayout -INFO - selected
+2021-05-29 23:24:06,566 - TrackPayout -INFO - selected
+2021-05-29 23:27:49,871 - TrackPayout -INFO - selected
+2021-05-29 23:50:34,375 - TrackPayout -INFO - Automated Followup
+2021-05-30 00:18:05,731 - TrackPayout -INFO - Automated Followup
+2021-05-30 00:25:12,624 - TrackPayout -INFO - Automated Followup
+2021-05-30 00:25:21,292 - TrackPayout -INFO - Handled Followup
+2021-05-30 00:28:25,903 - TrackPayout -INFO - Automated Followup
+2021-05-30 00:49:55,146 - TrackPayout -INFO - Automated Followup
+2021-05-30 00:50:19,918 - TrackPayout -INFO - Handled Followup
+2021-05-30 00:51:22,897 - TrackPayout -INFO - Automated Followup
+2021-05-30 00:51:23,316 - TrackPayout -INFO - Handled Followup
+2021-05-30 00:53:31,407 - TrackPayout -INFO - domore Followup
+2021-05-30 13:09:48,677 - TrackPayout -INFO - ClientBelowavg
+2021-05-30 13:12:34,642 - TrackPayout -INFO - Below Average performance
+2021-05-30 13:13:21,499 - TrackPayout -INFO - good performance
+2021-05-30 13:53:16,129 - TrackPayout -INFO - Below Average performance
+2021-05-30 14:30:11,593 - TrackPayout -INFO - good performance
+2021-05-30 14:32:05,815 - TrackPayout -INFO - Below Average performance
+2021-05-30 14:32:10,717 - TrackPayout -INFO - good performance
+2021-05-30 14:35:02,310 - TrackPayout -INFO - Outstanding
+2021-05-30 17:02:05,318 - TrackPayout -INFO - add account manager
+2021-05-30 21:17:26,520 - TrackPayout -INFO - add account manager
+2021-05-30 21:28:42,948 - TrackPayout -INFO - add account manager
+2021-05-30 21:31:54,442 - TrackPayout -INFO - add account manager
+2021-05-30 21:32:23,893 - TrackPayout -INFO - close
+2021-05-30 21:33:49,652 - TrackPayout -INFO - add account manager
+2021-05-30 21:34:07,839 - TrackPayout -INFO - close
+2021-05-30 21:58:38,700 - TrackPayout -INFO - add account manager
+2021-05-30 21:58:41,417 - TrackPayout -INFO - close
+2021-05-30 22:02:19,743 - TrackPayout -INFO - add account manager
+2021-05-30 22:02:40,118 - TrackPayout -INFO - close
+2021-05-30 22:04:29,970 - TrackPayout -INFO - add account manager
+2021-05-30 22:05:56,105 - TrackPayout -INFO - add account manager
+2021-05-30 22:11:32,796 - TrackPayout -INFO - add account manager
+2021-05-30 22:13:22,463 - TrackPayout -INFO - close
+2021-05-30 22:14:13,052 - TrackPayout -INFO - add account manager
+2021-05-30 22:14:34,766 - TrackPayout -INFO - add account manager
+2021-05-30 22:14:45,591 - TrackPayout -INFO - close
+2021-05-30 22:19:23,471 - TrackPayout -INFO - add account manager
+2021-05-30 22:19:30,259 - TrackPayout -INFO - close
+2021-05-30 22:19:35,008 - TrackPayout -INFO - Edit
+2021-05-30 22:21:24,255 - TrackPayout -INFO - add account manager
+2021-05-30 22:21:39,755 - TrackPayout -INFO - close
+2021-05-30 22:21:50,639 - TrackPayout -INFO - Edit
+2021-05-30 22:25:29,962 - TrackPayout -INFO - add account manager
+2021-05-30 22:25:36,688 - TrackPayout -INFO - close
+2021-05-30 22:25:41,534 - TrackPayout -INFO - Edit
+2021-05-30 22:30:29,044 - TrackPayout -INFO - add account manager
+2021-05-30 22:30:39,232 - TrackPayout -INFO - close
+2021-05-30 22:30:45,176 - TrackPayout -INFO - Edit
+2021-05-30 22:30:53,873 - TrackPayout -INFO - Edit
+2021-05-30 22:32:37,703 - TrackPayout -INFO - add account manager
+2021-05-30 22:36:21,717 - TrackPayout -INFO - add account manager
+2021-05-30 22:36:29,002 - TrackPayout -INFO - close
+2021-05-30 22:36:31,814 - TrackPayout -INFO - Edit
+2021-05-30 22:36:35,900 - TrackPayout -INFO - delete
+2021-05-30 22:36:53,636 - TrackPayout -INFO - remove
+2021-05-30 23:19:58,029 - TrackPayout -INFO - ac type
+2021-05-30 23:26:50,424 - TrackPayout -INFO - ac type
+2021-05-30 23:27:05,209 - TrackPayout -INFO - submit
+2021-05-30 23:27:19,789 - TrackPayout -INFO - Edit
+2021-05-30 23:31:11,012 - TrackPayout -INFO - ac type
+2021-05-30 23:31:16,690 - TrackPayout -INFO - submit
+2021-05-30 23:31:21,163 - TrackPayout -INFO - Edit
+2021-05-31 00:45:55,530 - TrackPayout -INFO - adduser
+2021-05-31 00:47:29,884 - TrackPayout -INFO - adduser
+2021-05-31 00:57:29,110 - TrackPayout -INFO - adduser
+2021-05-31 00:57:31,197 - TrackPayout -INFO - Edit
+2021-05-31 01:01:30,368 - TrackPayout -INFO - adduser
+2021-05-31 01:01:32,371 - TrackPayout -INFO - Edit
+2021-05-31 01:04:02,457 - TrackPayout -INFO - adduser
+2021-05-31 01:04:08,853 - TrackPayout -INFO - Edit
+2021-05-31 11:05:32,986 - TrackPayout -INFO - adduser
+2021-05-31 11:05:33,249 - TrackPayout -INFO - Edit
+2021-05-31 11:07:54,185 - TrackPayout -INFO - selected
+2021-05-31 11:10:34,207 - TrackPayout -INFO - Country selected
+2021-05-31 11:10:36,257 - TrackPayout -INFO - State selected
+2021-05-31 11:10:52,855 - TrackPayout -INFO - City selected
+2021-05-31 11:10:53,846 - TrackPayout -INFO - viewpage
+2021-05-31 11:10:57,031 - TrackPayout -INFO - Invoice Updated
+2021-05-31 11:13:35,055 - TrackPayout -INFO - viewpage
+2021-05-31 11:13:37,299 - TrackPayout -INFO - Invoice Updated
+2021-05-31 11:13:38,032 - TrackPayout -INFO - Invoice Remove
+2021-05-31 11:13:39,817 - TrackPayout -INFO - Report By Customer download
+2021-05-31 11:15:53,313 - TrackPayout -INFO - View Invoice
+2021-05-31 11:15:54,019 - TrackPayout -INFO - Download TooFar Report
+2021-05-31 11:15:56,271 - TrackPayout -INFO - Invoice Updated
+2021-05-31 11:17:45,639 - TrackPayout -INFO - View Invoice
+2021-05-31 11:17:46,220 - TrackPayout -INFO - Download 90days Report
+2021-05-31 11:17:48,551 - TrackPayout -INFO - Invoice Updated
+2021-05-31 11:48:12,728 - TrackPayout -INFO - Automated Followup
+2021-05-31 11:48:12,970 - TrackPayout -INFO - Handled Followup
+2021-05-31 13:23:37,747 - TrackPayout -INFO - Automated Followup
+2021-05-31 13:23:37,912 - TrackPayout -INFO - Handled Followup
+2021-05-31 13:43:35,315 - TrackPayout -INFO - Automated Followup
+2021-05-31 13:43:35,463 - TrackPayout -INFO - Handled Followup
+2021-05-31 14:12:50,298 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:13:28,511 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:13:39,927 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:13:40,176 - TrackPayout -INFO - invoice added 
+2021-05-31 14:13:44,368 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 14:13:46,000 - TrackPayout -INFO - Search
+2021-05-31 14:13:46,001 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 14:13:46,001 - TrackPayout -INFO - Report download 
+2021-05-31 14:13:52,353 - TrackPayout -INFO - View Invoice
+2021-05-31 14:13:52,850 - TrackPayout -INFO - Edit Invoice
+2021-05-31 14:13:55,289 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 14:13:55,712 - TrackPayout -INFO - Invoice Updated
+2021-05-31 14:13:55,712 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 14:17:30,203 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:17:42,992 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:17:43,331 - TrackPayout -INFO - invoice added 
+2021-05-31 14:17:47,227 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 14:17:48,906 - TrackPayout -INFO - Search
+2021-05-31 14:17:48,908 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 14:17:48,908 - TrackPayout -INFO - Report download 
+2021-05-31 14:17:51,662 - TrackPayout -INFO - View Invoice
+2021-05-31 14:17:52,520 - TrackPayout -INFO - Edit Invoice
+2021-05-31 14:17:55,098 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 14:17:55,562 - TrackPayout -INFO - Invoice Updated
+2021-05-31 14:18:07,938 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 14:18:08,915 - TrackPayout -INFO - search paid invoice
+2021-05-31 14:18:11,113 - TrackPayout -INFO - View paid invoice
+2021-05-31 14:18:11,499 - TrackPayout -INFO - close paid invoice
+2021-05-31 14:18:11,973 - TrackPayout -INFO - download attachment
+2021-05-31 14:18:11,975 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 14:20:24,940 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:20:36,869 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:20:41,691 - TrackPayout -INFO - invoice added 
+2021-05-31 14:23:31,441 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:23:44,413 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:24:54,478 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:25:05,381 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:25:09,504 - TrackPayout -INFO - Unpaiinvoice added 
+2021-05-31 14:27:28,927 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:27:41,976 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:27:42,252 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 14:27:49,495 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 14:27:49,776 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 14:27:51,873 - TrackPayout -INFO - Search
+2021-05-31 14:27:57,394 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 14:27:58,840 - TrackPayout -INFO - View Invoice
+2021-05-31 14:28:00,128 - TrackPayout -INFO - Edit Invoice
+2021-05-31 14:28:02,059 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 14:28:02,526 - TrackPayout -INFO - Invoice Updated
+2021-05-31 14:28:02,527 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 14:29:19,832 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:29:30,764 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:29:31,023 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 14:29:36,061 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 14:29:36,262 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 14:29:38,351 - TrackPayout -INFO - Search
+2021-05-31 14:29:40,911 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 14:29:45,357 - TrackPayout -INFO - View Invoice
+2021-05-31 14:29:45,800 - TrackPayout -INFO - Edit Invoice
+2021-05-31 14:29:47,776 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 14:29:48,261 - TrackPayout -INFO - Invoice Updated
+2021-05-31 14:29:48,262 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 14:31:25,520 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 14:31:36,490 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 14:31:36,821 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 14:31:41,011 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 14:31:41,248 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 14:31:43,225 - TrackPayout -INFO - Search
+2021-05-31 14:32:02,014 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 14:32:03,737 - TrackPayout -INFO - View Invoice
+2021-05-31 14:32:05,046 - TrackPayout -INFO - Edit Invoice
+2021-05-31 14:32:07,300 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 14:32:07,656 - TrackPayout -INFO - Invoice Updated
+2021-05-31 14:32:07,658 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 14:32:22,126 - TrackPayout -INFO - search paidinvoice 
+2021-05-31 14:33:13,544 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 15:39:51,878 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 15:40:03,793 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 15:40:04,164 - TrackPayout -INFO - invoice added 
+2021-05-31 15:40:08,030 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 15:40:09,486 - TrackPayout -INFO - Search
+2021-05-31 16:01:31,784 - TrackPayout -INFO - Added invoice is searched.....TC_003 TestCaseReport 
+2021-05-31 16:01:33,333 - TrackPayout -INFO - View Invoice
+2021-05-31 16:01:34,807 - TrackPayout -INFO - Edit Invoice
+2021-05-31 16:01:52,962 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 16:01:53,365 - TrackPayout -INFO - Invoice Updated
+2021-05-31 16:01:56,942 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 16:01:58,130 - TrackPayout -INFO - search paid invoice
+2021-05-31 16:01:59,435 - TrackPayout -INFO - View paid invoice
+2021-05-31 16:01:59,702 - TrackPayout -INFO - close paid invoice
+2021-05-31 16:02:00,595 - TrackPayout -INFO - download attachment
+2021-05-31 16:02:00,595 - TrackPayout -INFO - view,edit,delete invoice
+2021-05-31 16:32:07,708 - TrackPayout -INFO - View Invoice
+2021-05-31 16:32:17,503 - TrackPayout -INFO - Edit Invoice
+2021-05-31 16:32:19,358 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 16:32:26,691 - TrackPayout -INFO - Invoice Updated
+2021-05-31 16:32:45,646 - TrackPayout -INFO - Delete Invoice
+2021-05-31 16:34:49,700 - TrackPayout -INFO - close Invoice
+2021-05-31 16:34:56,634 - TrackPayout -INFO - Edit Invoice
+2021-05-31 16:34:58,386 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 16:35:01,964 - TrackPayout -INFO - Invoice Updated
+2021-05-31 16:51:03,899 - TrackPayout -INFO - close Invoice
+2021-05-31 16:51:11,398 - TrackPayout -INFO - Edit Invoice
+2021-05-31 16:51:12,969 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 16:51:15,925 - TrackPayout -INFO - Invoice Updated
+2021-05-31 16:51:28,618 - TrackPayout -INFO - Delete Invoice
+2021-05-31 16:51:38,712 - TrackPayout -INFO - RemovePopup... Invoice
+2021-05-31 16:51:49,797 - TrackPayout -INFO - Followup details display
+2021-05-31 16:55:14,842 - TrackPayout -INFO - close Invoice
+2021-05-31 16:55:18,077 - TrackPayout -INFO - Edit Invoice
+2021-05-31 16:55:19,430 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 16:55:22,205 - TrackPayout -INFO - Invoice Updated
+2021-05-31 16:55:29,268 - TrackPayout -INFO - Delete Invoice
+2021-05-31 16:55:36,673 - TrackPayout -INFO - RemovePopup... Invoice
+2021-05-31 16:55:50,351 - TrackPayout -INFO - Followup details display
+2021-05-31 16:57:57,066 - TrackPayout -INFO - close Invoice
+2021-05-31 16:58:08,321 - TrackPayout -INFO - Edit Invoice
+2021-05-31 16:58:10,189 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 16:58:12,783 - TrackPayout -INFO - Invoice Updated
+2021-05-31 16:58:14,955 - TrackPayout -INFO - Delete Invoice
+2021-05-31 16:58:20,477 - TrackPayout -INFO - RemovePopup... Invoice
+2021-05-31 16:58:23,390 - TrackPayout -INFO - Followup details display
+2021-05-31 17:03:08,586 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 17:03:17,617 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 17:11:28,225 - TrackPayout -INFO - Unpaiinvoice added 
+2021-05-31 17:12:45,523 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 17:12:57,750 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 17:13:07,806 - TrackPayout -INFO - Unpaiinvoice added 
+2021-05-31 17:13:08,523 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 17:13:11,602 - TrackPayout -INFO - Search
+2021-05-31 17:13:11,603 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 17:13:11,604 - TrackPayout -INFO - Report download 
+2021-05-31 17:13:37,010 - TrackPayout -INFO - close Invoice
+2021-05-31 17:13:41,118 - TrackPayout -INFO - Edit Invoice
+2021-05-31 17:13:43,166 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 17:13:46,955 - TrackPayout -INFO - Invoice Updated
+2021-05-31 17:13:53,574 - TrackPayout -INFO - Delete Invoice
+2021-05-31 17:14:00,345 - TrackPayout -INFO - RemovePopup... Invoice
+2021-05-31 17:24:43,717 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 17:24:55,330 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 17:24:55,701 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 17:25:00,255 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 17:25:00,525 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 17:25:02,364 - TrackPayout -INFO - Search
+2021-05-31 17:25:04,958 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 17:25:08,525 - TrackPayout -INFO - close Invoice
+2021-05-31 17:25:12,661 - TrackPayout -INFO - Edit Invoice
+2021-05-31 17:25:14,371 - TrackPayout -INFO - test case passed...Invoice not updated successfully!
+2021-05-31 17:25:16,581 - TrackPayout -INFO - Invoice Updated
+2021-05-31 17:27:22,608 - TrackPayout -INFO - Invoice page is displayed
+2021-05-31 17:27:33,349 - TrackPayout -INFO - test case passed....Invoice with this invoice no is already exist!
+2021-05-31 17:27:33,587 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 17:27:38,011 - TrackPayout -INFO - Unpaid invoice added 
+2021-05-31 17:27:38,282 - TrackPayout -INFO - All Invoices page displayed 
+2021-05-31 17:27:40,181 - TrackPayout -INFO - Search
+2021-05-31 17:27:42,388 - TrackPayout -INFO - Added invoice is searched 
+2021-05-31 17:27:46,741 - TrackPayout -INFO - search paidinvoice 
+2021-05-31 17:27:47,649 - TrackPayout -INFO - View paid invoice
+2021-05-31 17:27:47,995 - TrackPayout -INFO - close paid invoice
+2021-05-31 17:27:48,689 - TrackPayout -INFO - download attachment
+2021-05-31 17:27:48,690 - TrackPayout -INFO - view,delete,edit unpaidinvoice 
+2021-05-31 17:30:53,098 - TrackPayout -INFO - test case passed...Invoice with this invoice no is already exist!
+2021-05-31 17:33:30,036 - TrackPayout -INFO - View Invoice
+2021-05-31 17:33:30,933 - TrackPayout -INFO - Download todays Report
+2021-05-31 17:33:32,645 - TrackPayout -INFO - Invoice Updated
+2021-05-31 17:36:36,512 - TrackPayout -INFO - logger
+2021-05-31 17:37:45,424 - TrackPayout -INFO - viewpage
+2021-05-31 17:37:56,139 - TrackPayout -INFO - Invoice Updated
+2021-05-31 17:37:57,359 - TrackPayout -INFO - Invoice Remove
+2021-05-31 17:47:51,042 - TrackPayout -INFO - logger
+2021-05-31 17:47:54,588 - TrackPayout -INFO - logger
+2021-05-31 17:48:00,008 - TrackPayout -INFO - logger
+2021-05-31 17:48:26,053 - TrackPayout -INFO - logger
+2021-05-31 17:48:27,265 - TrackPayout -INFO - logger
+2021-05-31 17:48:28,298 - TrackPayout -INFO - logger
+2021-05-31 17:48:29,349 - TrackPayout -INFO - logger
+2021-05-31 17:48:30,319 - TrackPayout -INFO - logger
+2021-05-31 17:48:31,533 - TrackPayout -INFO - logger
+2021-05-31 17:48:32,938 - TrackPayout -INFO - logger
+2021-05-31 17:54:41,087 - TrackPayout -INFO - logger
+2021-05-31 17:54:55,473 - TrackPayout -INFO - test case passed...Invoice dislayed
+2021-05-31 17:54:55,996 - TrackPayout -INFO - viewpage
+2021-05-31 17:54:59,077 - TrackPayout -INFO - Invoice Updated
+2021-05-31 18:00:27,863 - TrackPayout -INFO - viewpage
+2021-05-31 18:00:36,666 - TrackPayout -INFO - Invoice Updated
+2021-05-31 18:02:27,553 - TrackPayout -INFO - viewpage
+2021-05-31 18:02:33,469 - TrackPayout -INFO - Invoice Updated
+2021-05-31 18:02:37,458 - TrackPayout -INFO - Report By Customer download
+2021-05-31 18:06:54,558 - TrackPayout -INFO - Country selected
+2021-05-31 18:06:56,179 - TrackPayout -INFO - State selected
+2021-05-31 18:07:13,490 - TrackPayout -INFO - City selected
+2021-05-31 18:07:36,956 - TrackPayout -INFO - viewpage
+2021-05-31 18:10:32,780 - TrackPayout -INFO - viewpage
+2021-05-31 18:10:37,857 - TrackPayout -INFO - Invoice Updated
+2021-05-31 18:10:41,282 - TrackPayout -INFO - Report By Customer download
+2021-05-31 18:15:51,849 - TrackPayout -INFO - Country selected
+2021-05-31 18:15:53,711 - TrackPayout -INFO - State selected
+2021-05-31 18:15:57,775 - TrackPayout -INFO - viewpage
+2021-05-31 18:25:58,355 - TrackPayout -INFO - selected
+2021-05-31 18:33:07,536 - TrackPayout -INFO - selected
+2021-05-31 18:33:08,019 - TrackPayout -INFO - selected
+2021-05-31 18:38:26,215 - TrackPayout -INFO - Below Average performance
+2021-05-31 18:38:26,431 - TrackPayout -INFO - good performance
+2021-05-31 18:39:02,384 - TrackPayout -INFO - Outstanding
