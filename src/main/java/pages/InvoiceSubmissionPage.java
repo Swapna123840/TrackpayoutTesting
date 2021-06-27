@@ -1,6 +1,7 @@
 package pages;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 import org.openqa.selenium.By;
@@ -29,11 +30,10 @@ public class InvoiceSubmissionPage extends TestSetUp {
 	@FindBy(xpath = "//div[contains(text(),'Select All')]")
 	WebElement SelAllCheck;
 
-	
-	@FindBy(xpath = "//div[@class='dropdown-list']/ul[@class='item2']/li")
+	@FindBy(xpath = "//ul[@class='item2']/li")
 	List<WebElement> checkboxes;
 
-	@FindBy(xpath = "//input[@id='shipping_date']/ancestor::form/div[2]/div[2]/input[1]") // xpath
+	@FindBy(xpath = "//input[@id='shipping_date']/ancestor::form/div[2]/div[2]/input[1]")
 	WebElement shippingDate;
 
 	@FindBy(id = "shippingMode")
@@ -54,81 +54,84 @@ public class InvoiceSubmissionPage extends TestSetUp {
 	@FindBy(id = "files")
 	WebElement AttachFile;
 
-	@FindBy(xpath = "//button[contains(text(), 'Submit')]") 
+	@FindBy(xpath = "//button[contains(text(), 'Submit')]")
 	List<WebElement> Submitbtns;
-	
 
-	@FindBy(xpath = "//button[contains(text(), 'Close')]") // xpath
+	@FindBy(xpath = "//button[contains(text(), 'Close')]")
 	List<WebElement> Closebtns;
-	
-	
-	@FindBy(xpath = "//button[contains(text(),'OK')]")  
-	WebElement Okalert;
-	
 
-	@FindBy(xpath = "//button[ @data-dismiss='modal' and @class='btn btn-danger']") // xpath
+	@FindBy(xpath = "//button[contains(text(),'OK')]")
+	WebElement Okalert;
+
+	@FindBy(xpath = "//button[ @data-dismiss='modal' and @class='btn btn-danger']")
 	WebElement closebtn;
 
-	@FindBy(xpath = "//input[@placeholder='Enter Keyword for filter result']") 
+	@FindBy(xpath = "//input[@placeholder='Enter Keyword for filter result']")
 	WebElement Searchbtn;
 
-	@FindBy(xpath = "//a[@title='show']/i[@class='feather icon-eye']") 
+	@FindBy(xpath = "//a[@title='show']/i[@class='feather icon-eye']")
 	List<WebElement> Viewbtns;
-	
-	@FindBy(xpath = "//button[contains(text(),'Close') and @class='btn btn-secondary']") // xpath
+
+	@FindBy(xpath = "//button[@type='button']")
 	List<WebElement> Closebtn;
-	
-	@FindBy(xpath = "//a[@title='Delete' ]/i[@class='feather icon-trash-2']") // xpath
-	List<WebElement> Delbtns;
-	
-	@FindBy(xpath = "//button[contains(text(),'Remove')]") // xpath
+
+	@FindBy(xpath = "//tbody/tr[1]/td[9]/a[1]")
+	WebElement Delbtns;
+
+	@FindBy(xpath = "//button[contains(text(),'Remove')]")
 	WebElement Removebtn;
-	
-	@FindBy(xpath = "//a[@title='Mark As Delivered']/i[@class='feather icon-map-pin']") // xpath
+
+	@FindBy(xpath = "//a[@title='Mark As Delivered']/i[@class='feather icon-map-pin']")
 	List<WebElement> MarkasDelivered;
-	
-	@FindBy(xpath = "//button[contains(text(),'Mark As Delivered')]") // xpath
+
+	@FindBy(xpath = "//button[contains(text(),'Mark As Delivered')]")
 	WebElement Markdelivered;
-	
+
 	public InvoiceSubmissionPage() {
 
 		PageFactory.initElements(driver, this);
 
 	}
 
-	public String ClickSubmitInvoicebtn() {
+	public String ClickSubmitInvoicebtn() throws InterruptedException {
 
-		TestHelpers.clickelement(SubmitInvoice_btn);
+		try {
 
-		TestHelpers.selectByIndex(Customer, 1);
+			TestHelpers.clickelement(SubmitInvoice_btn);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(SubmitInvoice_btn);
+		}
+
+		try {
+			TestHelpers.selectByIndex(Customer, 1);
+
+		} catch (Exception e) {
+			TestHelpers.selectByIndex(Customer, 1);
+		}
 
 		TestHelpers.clickelement(SelInvoiceno);
-		logger.info("invoice no selected");
-	
-		//TestHelpers.clickelement(SelAllCheck);
-		//logger.info("All invoice no selected");
+		logger.info("invoice no added");
 
-		TestHelpers.clickelement(checkboxes.get(0));
+		/*
+		 * TestHelpers.clickelement(SelAllCheck);
+		 * logger.info("All invoice no selected");-for selecting all Invoices
+		 */
+
+		Thread.sleep(3000);
+		TestHelpers.clickelement(checkboxes.get(2));
 
 		logger.info("invoice no... selected");
 
-		WebElement dateBox = shippingDate;
-
-		dateBox.sendKeys(props.getProperty("shipping_Date"));
-
-		dateBox.sendKeys(Keys.TAB);
-
-		// TestHelpers.inputdate("shippingDate", props.getProperty("shipping_Date"));
+		TestHelpers.inputdate(shippingDate, props.getProperty("shipping_Date"));
+		logger.info("Shipping date added");
 
 		TestHelpers.addtext(shipping_mode, props.getProperty("shippingMode"));
 
-		TestHelpers.addtext(RefNo, TestHelpers.randomeNum());
-		
-		
 		String text = TestHelpers.randomeNum();
 		TestHelpers.addtext(RefNo, text);
 		System.out.println(text);
-		
+		logger.info("Random Reference no added");
 
 		TestHelpers.addtext(ConName, props.getProperty("ConName"));
 
@@ -136,31 +139,29 @@ public class InvoiceSubmissionPage extends TestSetUp {
 
 		TestHelpers.addtext(Desc, props.getProperty("Desc"));
 
-		// TestHelpers.addtext(AttachFile, System.getProperty("user.dir") +
-		// "/src/main/resources/Report.csv");
-
 		AttachFile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
 
-
 		TestHelpers.clickelement(Submitbtns.get(1));
-		
+
 		logger.info("submit");
 
-/*		TestHelpers.clickelement(Closebtns.get(1));
-
-		logger.info("cancel");*/
+		/*
+		 * TestHelpers.clickelement(Closebtns.get(1));
+		 * 
+		 * logger.info("cancel");....For canceling page
+		 */
 
 		try {
-			
+
 			TestHelpers.clickelement(Okalert);
 
 		} catch (Exception e) {
-			
+
 			TestHelpers.clickelement(Okalert);
 		}
-		
+
 		logger.info("created");
-		
+
 		boolean res = driver.getPageSource().contains("Invoice has been submitted successfully!");
 
 		if (res == true) {
@@ -172,36 +173,62 @@ public class InvoiceSubmissionPage extends TestSetUp {
 			Assert.assertTrue(true);
 		}
 
-		
 		return text;
 
 	}
-	
+
 	public void search(String refno) {
-		
-		TestHelpers.addtext(Searchbtn, refno);
-		
-		logger.info("invoice searched");
+
+		boolean res = driver.getPageSource().contains("Invoice has been submitted successfully!");
+
+		if (res == true) {
+
+			Assert.assertTrue(true);
+			logger.info("test case passed....Invoice has been submitted successfully!");
+			TestHelpers.addtext(Searchbtn, refno);
+			logger.info("test case passed....Searching Invoice no. display");
+
+		} else {
+
+			Assert.assertTrue(false);
+			logger.info("test case passed..Invoice with this invoice no is already exist!");
+
+			// TestHelpers.addtext(Searchbtn, refno);//if particular invoice searched
+		}
 
 	}
-	
-	public void View_MarkAsDelivered_Delete() {
-		
+
+	public void View_MarkAsDelivered_Delete(String refno) {
+
+		WebElement msg = driver.findElement(By.xpath(
+				"/html/body/app-root/app-admin/div/div/app-pushinvoices/div/app-card/div/div[2]/div/div[3]/table/tbody/tr/td[5]"));
+		String text1 = msg.getText();
+
+		if (refno.equals(text1)) {
+			System.out.println("Reference no is same ");
+		} else {
+			System.out.println("Reference no not exist");
+		}
+
 		TestHelpers.clickelement(Viewbtns.get(0));
-		
+
 		logger.info("View submitted Invoice");
 
-			/*TestHelpers.clickelement(Closebtn.get(0));
-		
-		logger.info("close Invoice");*/
+		TestHelpers.clickelement(Closebtn.get(10));
+
+		logger.info("close Invoice");
 
 		TestHelpers.clickelement(MarkasDelivered.get(0));
-		
+
 		TestHelpers.clickelement(Markdelivered);
 
 		logger.info("  Invoice delivered");
-		
-		TestHelpers.clickelement(Delbtns.get(0));
+		try {
+			TestHelpers.clickelement(Delbtns);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(Delbtns);
+		}
 
 		TestHelpers.clickelement(Removebtn);
 

@@ -30,7 +30,7 @@ public class loginpagetest_001 extends TestSetUp {
 
 	}
 
-	@Test(priority = 2)
+	@Test
 	
 	public void loginTest() {
 
@@ -45,7 +45,7 @@ public class loginpagetest_001 extends TestSetUp {
 
 	}
 
-	@Test(priority = 1)
+	@Test
 
 	public void invalidLoginTest() {
 

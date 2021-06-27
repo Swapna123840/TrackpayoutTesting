@@ -32,7 +32,7 @@ public class InvoiceSubmission_003 extends TestSetUp {
 	}
 
 	@Test
-	public void SubmitInvoiceBtn() {
+	public void SubmitInvoiceBtn() throws InterruptedException {
 		
 		basepage=new BasePage();
 		
@@ -41,12 +41,10 @@ public class InvoiceSubmission_003 extends TestSetUp {
 		invsub=new InvoiceSubmissionPage();
 		
 		String refno=invsub.ClickSubmitInvoicebtn();
-
-		//invsub.ClickSubmitInvoicebtn();
 		
 		invsub.search(refno);
 		
-		invsub.View_MarkAsDelivered_Delete();
+		invsub.View_MarkAsDelivered_Delete(refno);
 	}
 
 	@AfterMethod

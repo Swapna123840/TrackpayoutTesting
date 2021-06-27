@@ -46,7 +46,7 @@ public class FollowUp_010 extends TestSetUp{
 	}
 	
 	@Test
-	public void DoMoreFollowup()  {
+	public void DoMoreFollowupCall()  {
 
 		followuppage.DoMoreFollowUp();
 		
@@ -54,9 +54,25 @@ public class FollowUp_010 extends TestSetUp{
 	}
 	
 	@Test
+	public void DoMoreFollowupSMS()  {
+
+		followuppage.DoMoreFollowUp();
+		
+		followuppage.SMS();
+	}
+	
+	
+	@Test
+	public void DoMoreFollowupEmail()  {
+
+		followuppage.DoMoreFollowUp();
+		
+		followuppage.Email();
+	}
+	@Test
 	public void requestmonreport() {
 		
-		followuppage.RequestMonthlyReport();//not working
+		followuppage.RequestMonthlyReport();
 	}
 	@AfterMethod
 	public void tearDown() {

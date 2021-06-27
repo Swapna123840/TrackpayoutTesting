@@ -1,0 +1,5 @@
+Customer ID	More Receipents	Category ID	PO Number	Invoice Number	Invoice Date (YYYY-MM-DD)	Invoice Amount	IGST	SGST	CGST	Description	Payment Term (in days)	Payment Due Date (YYYY-MM-DD)	Start Reminder From	Reminder Frequency	Invoice Paid  (1 for Yes/ 0 for No)	Payment Type (If Invoice Paid)	Payment Date (YYYY-MM-DD) (If invoice paid)		
+1	pankaj@contisofttechno.com	1	190909	78098	4/1/2020	190900	100	100	100	DESCRITION	100	4/30/2020	10	0	0				
+2	swapna@contisofttechno.com	2	98	inv1	5/13/2021	2873432	33	2	2	fsf	3	sfd	3	3	2	3	2		
+3	0	s	d	w	s	as	s	w	sa	DESCRITION	sa	sa	saw	2	2	2	22	2	2
+4	sd	sds	sdds	sdsd	dsd	dd	ddd	dd	dd	dd	dd	dd	dd	dd	d	dd	d	d	d

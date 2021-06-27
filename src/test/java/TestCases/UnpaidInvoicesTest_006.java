@@ -1,5 +1,7 @@
 package TestCases;
 
+import java.util.NoSuchElementException;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -7,6 +9,7 @@ import org.testng.annotations.Test;
 import SetUp.TestSetUp;
 import pages.AllInvoicePage;
 import pages.BasePage;
+import pages.InvCancelationReportPage;
 import pages.InvoicePage;
 import pages.LoginPage;
 import pages.UnpaidInvoicesPage;
@@ -18,7 +21,8 @@ public class UnpaidInvoicesTest_006 extends TestSetUp {
 	BasePage basepage;
 	AllInvoicePage allInvoicepage;
 	UnpaidInvoicesPage unpaidinvoicespage;
-
+	InvCancelationReportPage invcancelpage;
+	
 	UnpaidInvoicesTest_006() {
 
 		super();
@@ -47,9 +51,10 @@ public class UnpaidInvoicesTest_006 extends TestSetUp {
 		invoicepage = new InvoicePage();
 
 		String invno = invoicepage.AddUnPaidInvoice();
+		
 		logger.info("Unpaid invoice added ");
 
-		// driver.navigate().refresh();
+		driver.navigate().refresh();
 
 		basepage.clickonReport();
 
@@ -65,15 +70,12 @@ public class UnpaidInvoicesTest_006 extends TestSetUp {
 
 		logger.info("Added invoice is searched ");
 
-		/*
-		 * allinvoicepage.Report_Download();
-		 * 
-		 * logger.info("Report download ");
-		 */
+		allInvoicepage.Report_Download();
 
-		
+		logger.info("Report download ");
+
 		driver.navigate().refresh();
-		
+
 		basepage.clickonReport();
 
 		basepage.ClickUnpaidInvoices();
@@ -81,16 +83,31 @@ public class UnpaidInvoicesTest_006 extends TestSetUp {
 		unpaidinvoicespage = new UnpaidInvoicesPage();
 
 		unpaidinvoicespage.searchUnpaidinvoice(invno);
+
+		logger.info("search Unpaidinvoice ");
 		
-		logger.info("search paidinvoice ");
-		
+
 		unpaidinvoicespage.view_Edit_Delete_UnPaidinvoice();
 		logger.info("view,delete,edit unpaidinvoice ");
 
+		driver.navigate().refresh();
+		
+		unpaidinvoicespage.invisibilityofinvoice(invno);
+		
+
+		basepage.clickonReport();
+		
+		basepage.InvCancelReport();
+		
+		unpaidinvoicespage.invcancel(invno);
+		
+	
 	}
 
 	
-
+	
+	
+	
 	@AfterMethod
 	public void tearDown() {
 

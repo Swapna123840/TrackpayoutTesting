@@ -21,6 +21,7 @@ public class InvoicePagetest_002 extends TestSetUp {
 	BasePage basepage;
 	AllInvoicePage allinvoicepage;
 	PaidInvoicesPage paidinvoicepage;
+	
 	public InvoicePagetest_002() {
 
 		super();
@@ -44,6 +45,7 @@ public class InvoicePagetest_002 extends TestSetUp {
 
 	@Test
 	public void ClickAddInvoice()  {
+		
 
 		invoicepage = new InvoicePage();
 		
@@ -63,17 +65,22 @@ public class InvoicePagetest_002 extends TestSetUp {
 		allinvoicepage.searchallinvoice(invno);
 		
 		
-		logger.info("Added invoice is searched.....TC_003 TestCaseReport ");
+		logger.info("Added invoice is searched ");
 
 		allinvoicepage.Report_Download();
 		
 		logger.info("Report download ");
 
 		
-		allinvoicepage.View_Edit_Delete_Invoice();
+		allinvoicepage.ViewAllInvoice();
 		
-		logger.info("view,edit,delete invoice");
+		allinvoicepage.downloadAttachment();
+		
+		logger.info("view,download");
 
+		driver.navigate().refresh();
+		
+		basepage.clickonReport();
 		
 		basepage.ClickPaidInvoices();
 		
@@ -81,9 +88,9 @@ public class InvoicePagetest_002 extends TestSetUp {
 		
 		paidinvoicepage.searchpaidinvoice(invno);
 		
-		paidinvoicepage.view_Edit_Delete_Paidinvoice();
+		paidinvoicepage.view_download_Paidinvoice();
 		
-		logger.info("view,edit,delete invoice");
+		logger.info("view,downloadpaidinvoice");
 
 	}
 

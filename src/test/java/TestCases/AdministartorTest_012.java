@@ -35,50 +35,64 @@ public class AdministartorTest_012 extends TestSetUp {
 
 		basepage.Administrator();
 		
+		basepage.AccountManager();
+
+		
 		administratorpage = new AdministratorPage();
 
 	}
 
 	@Test
-	public void AccounManager() {
+	public void AddAccounManager() {
 
-		basepage.AccountManager();
-
-
+		
 		administratorpage.AddAccountManager();
 	}
 
 	@Test
-	public void BankDetails() {
+	public void AddBankDetails() {
+		
 		basepage.BankDetails();
-		administratorpage.Bankdetails();
+		
+		String texts=administratorpage.Bankdetails();
+		
+		administratorpage.Edit_Delete(texts);
+
 	}
 	
 	@Test
-	public void category() {
+	public void Addcategory() throws InterruptedException {
+		
 		basepage.Category();
-		administratorpage.ADDCategory();
+		
+		String texts=administratorpage.ADDCategory();//deleted message not display
+		
+		administratorpage.Edit_Delete_Category(texts);
 	}
 	
 	@Test
-	public void Customers() {
+	public void AddCustomers() {
+		
 		basepage.Customer();
-		administratorpage.ADDCustomer();
+		
+		String texts=administratorpage.ADDCustomer();
+		
+		//administratorpage.Edit_Delete_Customer(texts);
 	}
 	
 	@Test
-	public void User() {
+	public void AddUser() {
+		
 		basepage.User();
-		administratorpage.ADDUser();
-		administratorpage.EditChangepswd();
+		
+		String texts=administratorpage.ADDUser();
+		
+		administratorpage.Edit_Delete_User(texts);
+		//administratorpage.EditChangepswd();
 	}
 	
 	
-	@Test
-	public void log() {
-		basepage.logs();
-		basepage.Logs();
-	}
+	
 	
 	@AfterMethod
 	public void tearDown() {

@@ -2,10 +2,10 @@ package pages;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 import Helpers.TestHelpers;
 import SetUp.TestSetUp;
@@ -27,8 +27,8 @@ public class ByDueDaysPages extends TestSetUp {
 	@FindBy(xpath = "//body/app-root[1]/app-admin[1]/div[1]/div[1]/app-duein15days[1]/div[1]/app-card[1]/div[1]/div[2]/div[1]/div[1]/span[1]") // xpath
 	WebElement download;
 
-	@FindBy(xpath = "//a[@title='View']//i[@class='feather icon-eye']")
-	List<WebElement> views;
+	@FindBy(xpath = "//tbody/tr[1]/td[12]/a[1]")
+	WebElement views;
 
 	@FindBy(xpath = "//strong[contains(text(),'Payment details')]")
 	WebElement Paydetails;
@@ -54,164 +54,253 @@ public class ByDueDaysPages extends TestSetUp {
 	@FindBy(xpath = "//body/app-root[1]/app-admin[1]/div[1]/div[1]/app-toofar[1]/div[1]/app-card[1]/div[1]/div[2]/div[1]/div[1]/span[1]")
 	WebElement downloadTooFarrepo;
 
+	@FindBy(xpath = "//a[@title='Cancel Invoice' and @class='ng-star-inserted']")
+	List<WebElement> CancelInv;
+
+	@FindBy(xpath = "//button[contains(text(),'Remove')]")
+	WebElement Remove;
+
+	
 	public ByDueDaysPages() {
 
 		PageFactory.initElements(driver, this);
 	}
 
 	public void TodaysPayment() {
+		
+		
+		try {
+			String element=driver.findElement(By.xpath("//div[contains(text(),'There is no data available to show!')]")).getText();	
+				System.out.println(""+element);
+			}
+			catch (Exception e) {
+	
+			
+			TestHelpers.clickelement(views);
+			logger.info("snbnd");
 
-		boolean res = driver.getPageSource().contains("	There is no data available to show!");
+			TestHelpers.clickelement(Paydetails);
 
-		if (res == true) {
+			TestHelpers.clickelement(Paydtdetails);
 
-			Assert.assertTrue(true);
-			logger.info("test case passed....	There is no data available to show!");
+			TestHelpers.clickelement(close);
 
-		} else {
+			logger.info("View Invoice");
 
-			logger.info("test case passed...Invoice dislayed");
-			Assert.assertTrue(true);
-		}
+			TestHelpers.clickelement(download);
+
+			logger.info("Download todays Report");
+
+			TestHelpers.clickelement(Editbtns.get(0));
+
+			TestHelpers.addtext(EdiInamt, "889898");
+
+			TestHelpers.clickelement(submit);
+
+			TestHelpers.clickelement(Okbtn);
+
+			logger.info("Invoice Updated");
+	
+		} 
+
+		
 	}
-
+		
 	public void Click15days() {
 
-		TestHelpers.clickelement(views.get(0));
+		try {
+			String element=driver.findElement(By.xpath("//div[contains(text(),'There is no data available to show!')]")).getText();	
+				System.out.println(""+element);
+			}
+			catch (Exception e) {
+				
+			TestHelpers.clickelement(views);
+			logger.info("snbnd");
 
-		TestHelpers.clickelement(Paydetails);
+			TestHelpers.clickelement(Paydetails);
 
-		TestHelpers.clickelement(Paydtdetails);
+			TestHelpers.clickelement(Paydtdetails);
 
-		TestHelpers.clickelement(close);
+			TestHelpers.clickelement(close);
 
-		logger.info("View Invoice");
+			logger.info("View Invoice");
 
-		TestHelpers.clickelement(download);
+			try {
+				TestHelpers.clickelement(download);
 
-		logger.info("Download todays Report");
+			}
+			catch(org.openqa.selenium.StaleElementReferenceException ex)
+			{
+				TestHelpers.clickelement(download);
 
-		TestHelpers.clickelement(Editbtns.get(0));
+			}
 
-		TestHelpers.addtext(EdiInamt, "889898");
+			logger.info("Download todays Report");
 
-		TestHelpers.clickelement(submit);
+			TestHelpers.clickelement(Editbtns.get(0));
 
-		TestHelpers.clickelement(Okbtn);
+			TestHelpers.addtext(EdiInamt, "889898");
 
-		logger.info("Invoice Updated");
+			TestHelpers.clickelement(submit);
 
+			TestHelpers.clickelement(Okbtn);
+
+			logger.info("Invoice Updated");
+			
+			
+			
+			
+		} 
 	}
+
+	
 
 	public void Click30days() {
 
-		TestHelpers.clickelement(views.get(0));
+		try {
+			String element=driver.findElement(By.xpath("//div[contains(text(),'There is no data available to show!')]")).getText();	
+				System.out.println(""+element);
+			}
+			catch (Exception e) {
+			TestHelpers.clickelement(views);
 
-		TestHelpers.clickelement(Paydetails);
+			logger.info("sbdn");
+			TestHelpers.clickelement(Paydetails);
 
-		TestHelpers.clickelement(Paydtdetails);
+			TestHelpers.clickelement(Paydtdetails);
 
-		TestHelpers.clickelement(close);
+			TestHelpers.clickelement(close);
 
-		logger.info("View Invoice");
+			logger.info("View Invoice");
 
-		TestHelpers.clickelement(download30repo);
+			TestHelpers.clickelement(download30repo);
 
-		logger.info("Download 30days Report");
+			logger.info("Download 30days Report");
 
-		TestHelpers.clickelement(Editbtns.get(0));
+			TestHelpers.clickelement(Editbtns.get(0));
 
-		TestHelpers.addtext(EdiInamt, "889898");
+			TestHelpers.addtext(EdiInamt, "889898");
 
-		TestHelpers.clickelement(submit);
+			TestHelpers.clickelement(submit);
 
-		TestHelpers.clickelement(Okbtn);
+			TestHelpers.clickelement(Okbtn);
 
-		logger.info("Invoice Updated");
+			logger.info("Invoice Updated");
+		}
 
 	}
 
 	public void Click60days() {
 
-		TestHelpers.clickelement(views.get(0));
+		try {
+			String element=driver.findElement(By.xpath("//div[contains(text(),'There is no data available to show!')]")).getText();	
+				System.out.println(""+element);
+			}
+			catch (Exception e) {
+			TestHelpers.clickelement(views);
 
-		TestHelpers.clickelement(Paydetails);
+			TestHelpers.clickelement(Paydetails);
 
-		TestHelpers.clickelement(Paydtdetails);
+			TestHelpers.clickelement(Paydtdetails);
 
-		TestHelpers.clickelement(close);
+			TestHelpers.clickelement(close);
 
-		logger.info("View Invoice");
+			logger.info("View Invoice");
 
-		TestHelpers.clickelement(download60repo);
+			TestHelpers.clickelement(download60repo);
 
-		logger.info("Download 60days Report");
+			logger.info("Download 60days Report");
 
-		TestHelpers.clickelement(Editbtns.get(0));
+			TestHelpers.clickelement(Editbtns.get(0));
 
-		TestHelpers.addtext(EdiInamt, "889898");
+			TestHelpers.addtext(EdiInamt, "889898");
 
-		TestHelpers.clickelement(submit);
+			TestHelpers.clickelement(submit);
 
-		TestHelpers.clickelement(Okbtn);
+			TestHelpers.clickelement(Okbtn);
 
-		logger.info("Invoice Updated");
+			logger.info("Invoice Updated");
 
+		}
+
+		
 	}
 
 	public void Click90days() {
 
-		TestHelpers.clickelement(views.get(0));
+		try {
+			String element=driver.findElement(By.xpath("//div[contains(text(),'There is no data available to show!')]")).getText();	
+				System.out.println(""+element);
+			}
+			catch (Exception e) {
+			TestHelpers.clickelement(views);
 
-		TestHelpers.clickelement(Paydetails);
+			TestHelpers.clickelement(Paydetails);
 
-		TestHelpers.clickelement(Paydtdetails);
+			TestHelpers.clickelement(Paydtdetails);
 
-		TestHelpers.clickelement(close);
+			TestHelpers.clickelement(close);
 
-		logger.info("View Invoice");
+			logger.info("View Invoice");
 
-		TestHelpers.clickelement(download90repo);
+			TestHelpers.clickelement(download90repo);
 
-		logger.info("Download 90days Report");
+			logger.info("Download 90days Report");
 
-		TestHelpers.clickelement(Editbtns.get(0));
+			TestHelpers.clickelement(Editbtns.get(0));
 
-		TestHelpers.addtext(EdiInamt, "889898");
+			TestHelpers.addtext(EdiInamt, "889898");
 
-		TestHelpers.clickelement(submit);
+			TestHelpers.clickelement(submit);
 
-		TestHelpers.clickelement(Okbtn);
+			TestHelpers.clickelement(Okbtn);
 
-		logger.info("Invoice Updated");
-
+			logger.info("Invoice Updated");
+		}
 	}
 
 	public void ClickTooFardays() {
 
-		TestHelpers.clickelement(views.get(0));
+		try {
+			String element=driver.findElement(By.xpath("//div[contains(text(),'There is no data available to show!')]")).getText();	
+				System.out.println(""+element);
+			}
+			catch (Exception e) {
+			TestHelpers.clickelement(views);
 
-		TestHelpers.clickelement(Paydetails);
+			TestHelpers.clickelement(Paydetails);
 
-		TestHelpers.clickelement(Paydtdetails);
+			TestHelpers.clickelement(Paydtdetails);
 
-		TestHelpers.clickelement(close);
+			TestHelpers.clickelement(close);
 
-		logger.info("View Invoice");
+			logger.info("View Invoice");
 
-		TestHelpers.clickelement(downloadTooFarrepo);
+			TestHelpers.clickelement(downloadTooFarrepo);
 
-		logger.info("Download TooFar Report");
+			logger.info("Download TooFar Report");
 
-		TestHelpers.clickelement(Editbtns.get(0));
+			try {
+				TestHelpers.clickelement(Editbtns.get(0));
 
-		TestHelpers.addtext(EdiInamt, "889898");
+			}
+			catch(org.openqa.selenium.StaleElementReferenceException ex)
+			{
+				TestHelpers.clickelement(Editbtns.get(0));
 
-		TestHelpers.clickelement(submit);
+			}
+			
+			TestHelpers.addtext(EdiInamt, "889898");
 
-		TestHelpers.clickelement(Okbtn);
+			TestHelpers.clickelement(submit);
 
-		logger.info("Invoice Updated");
+			TestHelpers.clickelement(Okbtn);
 
+			logger.info("Invoice Updated");
+			
+			TestHelpers.clickele(CancelInv.get(0));
+				
+			TestHelpers.clickelement(Remove);
+		}
 	}
 }

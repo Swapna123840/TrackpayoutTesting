@@ -39,8 +39,6 @@ public class InvoicePage extends TestSetUp {
 	@FindBy(id = "invoice_no")
 	WebElement Inv_no;
 
-//span[@class='dropdown-btn']....xpath
-
 	@FindBy(id = "invoice_date")
 	WebElement Inv_date;
 
@@ -114,30 +112,37 @@ public class InvoicePage extends TestSetUp {
 		TestHelpers.waitforpageload(AddInvoice);
 
 	}
-	
-	
+
 	// Add Paid Invoice.......................
-	
+
 	public String AddPaidInvoice() {
 
-		TestHelpers.clickelement(AddInvoice);
+		try {
+			TestHelpers.clickelement(AddInvoice);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(AddInvoice);
+		}
 
 		TestHelpers.waitforpageload(SelectCust);
 
 		TestHelpers.selectByIndex(SelectCust, 1);
 
+		logger.info("wait for add customer");
+		
 		TestHelpers.selectByIndex(SelectCat, 1);
 
 		TestHelpers.addtext(Morereceipients, TestHelpers.randomestring() + "@gmail.com");
 
-		TestHelpers.addtext(Po_No, props.getProperty("POno"));
+		TestHelpers.addtext(Po_No, TestHelpers.randomeNum());
 
-		//store random string in variable then use in search field
-		String text = TestHelpers.randomeNum();
+		// store random string in variable then use in search field
+		String text = TestHelpers.UUID();
 		TestHelpers.addtext(Inv_no, text);
 		System.out.println(text);
 
-		TestHelpers.inputdate("invoice_date", props.getProperty("SelInvDt"));
+		TestHelpers.inputdate(Inv_date, props.getProperty("SelInvDt"));
+		logger.info("Invoice date added");
 
 		TestHelpers.addtext(Inv_amount, props.getProperty("Invoiceamt"));
 
@@ -157,7 +162,7 @@ public class InvoicePage extends TestSetUp {
 
 		TestHelpers.addtext(pay_term, props.getProperty("Payterm"));
 
-		TestHelpers.inputdate("payment_due_date", props.getProperty("Selduedt"));
+		TestHelpers.inputdate(pay_duedate, props.getProperty("Selduedt"));
 
 		TestHelpers.selectByIndex(selectRemainder, 1);
 
@@ -171,36 +176,40 @@ public class InvoicePage extends TestSetUp {
 
 			TestHelpers.addtext(Payment_type, props.getProperty("paymentType"));
 
-			TestHelpers.inputdate("payment_date", props.getProperty("paydt"));
+			TestHelpers.inputdate(pay_duedate, props.getProperty("Selduedt"));
+
+			TestHelpers.inputdate(PaymentDate, props.getProperty("paydt"));
+
+			logger.info("Payment added");
 
 		}
 
-		Attachfile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
+		Attachfile.sendKeys(System.getProperty("user.dir") + props.getProperty("FilePath"));
 
 		TestHelpers.clickelement(Submitbtn);
 
-		boolean res = driver.getPageSource().contains("Invoice has been created successfully!");
+		WebElement msg = driver
+				.findElement(By.xpath("//div[contains(text(),'Invoice has been created successfully!')]"));
+		String text1 = msg.getText();
+		String expectedText = "Invoice has been created successfully!";
 
-		if (res == true) {
-			Assert.assertTrue(true);
-			logger.info("test case passed....Invoice has been created successfully!");
-
+		if (expectedText.equals(text1)) {
+			System.out.println("Invoice has been created successfully!");
 		} else {
-			logger.info("test case passed....Invoice with this invoice no is already exist!");
-			Assert.assertTrue(true);
+			System.out.println("Invoice already exist");
+		}
+		// TestHelpers.clickelement(Cancelbtn);
+		try {
+			TestHelpers.clickele(okalert);
+
+		} catch (Exception e) {
+			TestHelpers.clickele(okalert);
 		}
 
-		// TestHelpers.clickelement(Cancelbtn);
-
-		Actions actions1 = new Actions(driver);
-
-		actions1.moveToElement(okalert).click().perform();
-
 		return text;
-		
+
 	}
 
-	
 	// Add UnPaid Invoice.......................
 
 	public String AddUnPaidInvoice() {
@@ -215,14 +224,15 @@ public class InvoicePage extends TestSetUp {
 
 		TestHelpers.addtext(Morereceipients, TestHelpers.randomestring() + "@gmail.com");
 
-		TestHelpers.addtext(Po_No, props.getProperty("POno"));
+		TestHelpers.addtext(Po_No, TestHelpers.randomeNum());
 
-		//store random string in variable then use in search field
-		String text = TestHelpers.randomeNum();
+		// store random string in variable then use in search field
+
+		String text = TestHelpers.UUID();
 		TestHelpers.addtext(Inv_no, text);
 		System.out.println(text);
 
-		TestHelpers.inputdate("invoice_date", props.getProperty("SelInvDt"));
+		TestHelpers.inputdate(Inv_date, props.getProperty("SelInvDt"));
 
 		TestHelpers.addtext(Inv_amount, props.getProperty("Invoiceamt"));
 
@@ -242,50 +252,45 @@ public class InvoicePage extends TestSetUp {
 
 		TestHelpers.addtext(pay_term, props.getProperty("Payterm"));
 
-		TestHelpers.inputdate("payment_due_date", props.getProperty("Selduedt"));
+		TestHelpers.inputdate(pay_duedate, props.getProperty("Selduedt"));
 
 		TestHelpers.selectByIndex(selectRemainder, 1);
 
 		TestHelpers.selectByIndex(RemainderFrequency, 0);
 
-		TestHelpers.waitforpageload(checkboxpaidinvoice);// wait for load
-
+		TestHelpers.waitforpageload(checkboxpaidinvoice);
 
 		Attachfile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
 
 		TestHelpers.clickelement(Submitbtn);
 
-		boolean res = driver.getPageSource().contains("Invoice has been created successfully!");
+		WebElement msg = driver
+				.findElement(By.xpath("//div[contains(text(),'Invoice has been created successfully!')]"));
+		String text1 = msg.getText();
+		String expectedText = "Invoice has been created successfully!";
 
-		if (res == true) {
-			Assert.assertTrue(true);
-			logger.info("test case passed....Invoice has been created successfully!");
-
+		if (expectedText.equals(text1)) {
+			System.out.println("Invoice has been created successfully!");
 		} else {
-			logger.info("test case passed....Invoice with this invoice no is already exist!");
-			Assert.assertTrue(true);
+			System.out.println("Invoice already exist");
 		}
-
 		// TestHelpers.clickelement(Cancelbtn);
 
-		Actions actions1 = new Actions(driver);
-
-		actions1.moveToElement(okalert).click().perform();
+		TestHelpers.clickele(okalert);
+		logger.info("Ok alert display");
 
 		return text;
 	}
 
-	
-
-	
 	public void BulkUpload() {
 
 		TestHelpers.clickelement(BulkUploadFormat);
 
-		ChooseFile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/BulkUploadSample2.csv");
+		ChooseFile.sendKeys(System.getProperty("user.dir") + props.getProperty("BulkUploadFormat"));
 
 		// For Invalid File type..........
-		// ChooseFile.sendKeys(System.getProperty("user.dir") + "/src/main/resources/Report.csv");
+		// ChooseFile.sendKeys(System.getProperty("user.dir") +
+		// props.getProperty("InvalidBulkUploadFile"));
 
 		boolean res = driver.getPageSource()
 				.contains("The number of columns in the CSV file are not matched with format!");

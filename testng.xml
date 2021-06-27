@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="TestCases.loginpagetest_001" />
+			<class name="TestCases.AdministartorTest_012" />
+			<class name="TestCases.PaidInvoicesTest_005" />
+			<class name="TestCases.UnpaidInvoicesTest_006" />
+			<class name="TestCases.InvoiceSubmission_003" />
+			<class name="TestCases.InvoicePagetest_002" />
+			<class name="TestCases.ByDueDaysTest_007" />
+			<class name="TestCases.ByMasterTest_008" />
+			<class name="TestCases.ByAgeingReportsTest_009" />
+			<class name="TestCases.FollowUp_010" />
+			<class name="TestCases.ClientPerformanceTest_011" />
+			<class name="TestCases.LogsTest_013" />
+			<class name="TestCases.UpdatePaymentTest_014" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

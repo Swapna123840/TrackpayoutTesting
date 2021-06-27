@@ -9,15 +9,16 @@ import pages.AllInvoicePage;
 import pages.BasePage;
 import pages.InvoicePage;
 import pages.LoginPage;
+import pages.ReminderPage;
 
-public class AllInvoiceTest_004 extends TestSetUp {
-
+public class ReminderTest_15 extends TestSetUp{
 	LoginPage loginPage;
 	InvoicePage invoicepage;
 	BasePage basepage;
 	AllInvoicePage allinvoicepage;
-
-	public AllInvoiceTest_004() {
+	ReminderPage reminderpage;
+	
+	public ReminderTest_15() {
 
 		super();
 	}
@@ -33,28 +34,28 @@ public class AllInvoiceTest_004 extends TestSetUp {
 
 		basepage = new BasePage();
 
-		basepage.clickonReport();
-
-		basepage.clickonAllInvoice();
-
-	}
-
-	@Test
-	public void AllInvoice() throws InterruptedException {
-
-		allinvoicepage = new AllInvoicePage();
-
-		//allinvoicepage.Report_Download();........not working
+		basepage.Reminderbtn();
 		
-		allinvoicepage.View_Edit_Delete_Invoice();
+		reminderpage=new ReminderPage(); 
 	}
-
+	
+	
+	
+	@Test
+	
+	public void Reminder() {
+		
+		String strText=	reminderpage.EnableReminder();
+		reminderpage.reminderverify(strText);
+	}
+	
+	
+	
 	@AfterMethod
 	public void tearDown() {
 
 		driver.quit();
 
 	}
-
 	
 }

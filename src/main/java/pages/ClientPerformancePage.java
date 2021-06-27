@@ -8,11 +8,14 @@ import Helpers.TestHelpers;
 import SetUp.TestSetUp;
 
 public class ClientPerformancePage extends TestSetUp {
-	@FindBy(xpath = "//div[contains(text(),'Below Average Performance (60%)')]")
-	WebElement belowavg;
+	@FindBy(xpath = "//div[@id='automatedFollowUps']")
+	WebElement avgper;
 	
-	@FindBy(xpath = "//div[contains(text(),'Good Performance (40%)')]")
+	@FindBy(xpath = "//div[@id='allFollowUps']")
 	WebElement Goodperf;
+	
+	@FindBy(xpath = "//h5[@id='handledHeading']")
+	WebElement belowavg;
 	
 	
 	@FindBy(xpath = "//a[@id='tab2']")
@@ -26,6 +29,10 @@ public class ClientPerformancePage extends TestSetUp {
 	}
 	
 	public void clientbelowavg() {
+		
+		
+		TestHelpers.clickelement(avgper);
+
 		TestHelpers.clickelement(belowavg);
 		logger.info("Below Average performance");
 		

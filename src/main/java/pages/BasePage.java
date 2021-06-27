@@ -14,7 +14,7 @@ import SetUp.TestSetUp;
 
 public class BasePage extends TestSetUp {
 
-	@FindBy(xpath = "//span[contains(text(),'Report')]") // xpath issue
+	@FindBy(xpath = "//span[contains(text(),'Report')]")
 	WebElement ClickReport;
 
 	@FindBy(xpath = "//a[@href='#/trackpayout/report/all']")
@@ -32,7 +32,7 @@ public class BasePage extends TestSetUp {
 	@FindBy(xpath = "//a[contains(text(),'Paid Invoices')]")
 	WebElement PaidInvoices;
 
-	@FindBy(xpath = "//a[contains(text(),'Update Payment')")
+	@FindBy(xpath = "//a[@href=\"#/trackpayout/report/payment-updation\"]")
 	WebElement UpdatePayment;
 
 	@FindBy(xpath = "//a[contains(text(),'Unpaid Invoices')]")
@@ -116,6 +116,16 @@ public class BasePage extends TestSetUp {
 	@FindBy(xpath = "//a[@href=\"#/trackpayout/log/byuser\"]")
 	List<WebElement> logbyuser;
 
+	@FindBy(xpath = "//a[@href=\"#/trackpayout/report/cancelation-report\"]")
+	WebElement InvCancelRepbtn;
+
+	@FindBy(xpath = "//a[@href=\"#/trackpayout/reminder\"]")
+	WebElement Reminderbtn;
+
+	@FindBy(xpath = "//span[contains(text(),'Dashboard')]")
+	WebElement Dashboard;
+
+	
 	public BasePage() {
 
 		PageFactory.initElements(driver, this);
@@ -124,16 +134,17 @@ public class BasePage extends TestSetUp {
 
 	public void clickOnInvoice() {
 
-		// TestHelpers.clickelement(Invoice);
-
 		TestHelpers.clickelement(Invoices.get(0));
 
-		// return new InvoicePage();// create object of invoicepage
 	}
 
 	public void InvoiceSubmission() {
+		try {
+			TestHelpers.clickelement(InvSubmission);
 
-		TestHelpers.clickelement(InvSubmission);
+		} catch (Exception e) {
+			TestHelpers.clickelement(InvSubmission);
+		}
 
 	}
 
@@ -165,7 +176,12 @@ public class BasePage extends TestSetUp {
 
 	public void ClickUpdatePayment() {
 
-		TestHelpers.clickelement(UpdatePayment);
+		try {
+			TestHelpers.clickelement(UpdatePayment);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(UpdatePayment);
+		}
 
 	}
 
@@ -282,42 +298,70 @@ public class BasePage extends TestSetUp {
 
 	public void Administrator() {
 
-		TestHelpers.clickelement(Administrator);
+		try {
+			TestHelpers.clickelement(Administrator);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(Administrator);
+		}
 
 	}
 
 	public void AccountManager() {
+		try {
+			TestHelpers.clickelement(AccountMgr);
 
-		TestHelpers.clickelement(AccountMgr);
+		} catch (Exception e) {
+			TestHelpers.clickelement(AccountMgr);
+		}
 
 	}
 
 	public void BankDetails() {
+		try {
+			TestHelpers.clickelement(Bankdetails);
 
-		TestHelpers.clickelement(Bankdetails);
+		} catch (Exception e) {
+			TestHelpers.clickelement(Bankdetails);
+		}
 	}
 
 	public void Category() {
 
-		TestHelpers.clickelement(Category);
+		TestHelpers.scrollheight(Category);
+		try {
+			TestHelpers.clickelement(Category);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(Category);
+		}
 	}
 
 	public void Customer() {
 
-		TestHelpers.clickelement(Customer);
+		TestHelpers.scrollheight(Customer);
+		
+		try {
+			TestHelpers.clickelement(Customer);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(Customer);
+		}
 	}
 
 	public void User() {
 
 		TestHelpers.scrollheight(User);
 
-		TestHelpers.clickelement(User);
+		try {
+			TestHelpers.clickelement(User);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(User);
+		}
 	}
 
 	public void logs() {
-
-		// TestHelpers.scrollheight(Log.get(0));
-		// TestHelpers.clickelement(Log.get(0));
 
 		TestHelpers.scrollheight(los);
 
@@ -335,5 +379,15 @@ public class BasePage extends TestSetUp {
 
 		TestHelpers.clickelement(logbyuser.get(0));
 
+	}
+
+	public void InvCancelReport() {
+
+		TestHelpers.clickelement(InvCancelRepbtn);
+	}
+
+	public void Reminderbtn() {
+
+		TestHelpers.clickelement(Reminderbtn);
 	}
 }

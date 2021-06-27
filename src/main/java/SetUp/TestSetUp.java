@@ -15,15 +15,20 @@ import Helpers.TestHelpers;
 
 
 public class TestSetUp  {
+	
 	public static WebDriver driver;
 	public static Properties props;
 	
 	public TestSetUp(){
+		
 		try {
+			
 			props = new Properties();
 			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/config/config.properties");
 			props.load(ip);
-		} catch (FileNotFoundException e) {
+		}	
+		 catch (FileNotFoundException e) 
+		{
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -33,9 +38,11 @@ public class TestSetUp  {
 	
 	public static void initialization(){
 		
+		
 		System.setProperty("webdriver.chrome.driver", (System.getProperty("user.dir")+ "/src/main/resources/chromedriver.exe"));
 		driver = new ChromeDriver(); 
-		 logger = Logger.getLogger("TrackPayout");
+		
+		logger = Logger.getLogger("TrackPayout");
 		PropertyConfigurator.configure("Log4j.properties");
 		
 		driver.manage().window().maximize();

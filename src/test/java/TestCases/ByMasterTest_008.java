@@ -1,5 +1,6 @@
 package TestCases;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,6 +12,7 @@ import pages.InvoicePage;
 import pages.LoginPage;
 
 public class ByMasterTest_008 extends TestSetUp {
+	
 	LoginPage loginPage;
 	InvoicePage invoicepage;
 	BasePage basepage;
@@ -47,12 +49,23 @@ public class ByMasterTest_008 extends TestSetUp {
 		
 		bymasterpages = new ByMasterPages();
 
-
 		bymasterpages.selectaccMgr();
 
-		bymasterpages.View_Edit_Delete();
+
+		try {
+			String element=driver.findElement(By.xpath("//div[contains(text(),'There is no data available to show!')]")).getText();	
+				System.out.println(""+element);
+			}
+			catch (Exception e) {
+				
+		bymasterpages.View();
 		
-		//bymasterpages.Reportbymgr();.....not working
+		bymasterpages.Edit();
+		
+		bymasterpages.Delete();
+		
+		bymasterpages.DownloadReportbymgr();
+			}
 	}
 
 	@Test
@@ -64,8 +77,15 @@ public class ByMasterTest_008 extends TestSetUp {
 
 		bymasterpages.SelectCategory();
 		
+		bymasterpages.View();
 		
-	//	bymasterpages.ReportByCategory();
+		bymasterpages.downloadAttachments();
+		
+		bymasterpages.Edit();
+		
+		bymasterpages.Delete();
+		
+		bymasterpages.ReportByCategory();
 		
 		
 	}
@@ -77,9 +97,13 @@ public class ByMasterTest_008 extends TestSetUp {
 		
 		bymasterpages = new ByMasterPages();
 		
-		bymasterpages.View_Edit_Delete();
+		bymasterpages.View();
 		
-		bymasterpages.ReportByCustomer();
+		bymasterpages.Edit();
+		
+		bymasterpages.Delete();
+				
+		bymasterpages.ReportByCategory();
 	}
 
 	@Test
@@ -94,11 +118,16 @@ public class ByMasterTest_008 extends TestSetUp {
 		bymasterpages.SearchbyState();
 		
 		bymasterpages.SearchbyCity();
-			
-		bymasterpages.View_Edit_delete_locaton();
 		
+		bymasterpages.View();
+		
+		bymasterpages.Edit();
+		
+		bymasterpages.Delete();
+		
+		bymasterpages.ReportByLocation();
 
-		
+	
 	}
 	
 	

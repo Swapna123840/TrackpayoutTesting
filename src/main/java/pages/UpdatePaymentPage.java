@@ -58,38 +58,33 @@ public class UpdatePaymentPage extends TestSetUp {
 		TestHelpers.addtext(paynote, "Payment done");
 
 		List<WebElement> check = driver.findElements(By.xpath("//input[@type='checkbox']"));
-
+	
 		for (int i = 0; i < check.size(); i++) {
 
-			// check.get(i).click();----for select all checkbox
+			 check.get(i).click();//----for select all checkbox
 
-			check.get(i = 0).click();// -----for select single checkbox
+			//check.get(i = 0).click();// -----for select single checkbox
 
 			TestHelpers.addtext(amtcheck, "273737");
-
-			/*
-			 * check.get(i=1).click();//-----for select single checkbox
-			 * TestHelpers.addtext(amtcheck, "34444");
-			 */
-
+	
 			break;
 
 		}
 
 		TestHelpers.clickelement(submitbtn);
 
+		WebElement msg=driver.findElement(By.xpath("//div[contains(text(),'Payment updated successfully!')]"));
+        String text=msg.getText();
+        String expectedText = "Payment updated successfully!";
+        Assert.assertEquals(text,expectedText);
+
+		
+		
 		TestHelpers.clickelement(cancelbtn);
+		
 
-		boolean res = driver.getPageSource().contains("Payment updated successfully!");
-
-		if (res == true) {
-			Assert.assertTrue(true);
-			logger.info("test case passed....Payment updated successfully!");
-
-		} else {
-			logger.info("test case passed....Payment not updated !");
-			Assert.assertTrue(true);
-		}
+		
+	
 
 	}
 }

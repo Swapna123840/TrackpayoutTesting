@@ -12,7 +12,7 @@ public class ByAgeingReportsPage extends TestSetUp {
 	@FindBy(id = "ageing_type")
 	WebElement SelAgeingtype;
 
-	@FindBy(xpath = "//body/app-root[1]/app-admin[1]/div[1]/div[1]/app-ageing[1]/div[1]/app-card[1]/div[1]/div[2]/div[1]/div[1]/div[2]/span[1]")
+	@FindBy(xpath = "/html/body/app-root/app-admin/div/div/app-ageing/div/app-card/div/div[2]/div/div[1]/div[2]/span")
 	WebElement Report;
 
 	public ByAgeingReportsPage() {
@@ -24,7 +24,12 @@ public class ByAgeingReportsPage extends TestSetUp {
 
 		TestHelpers.selectByIndex(SelAgeingtype, 1);
 
-		TestHelpers.clickelement(Report);
+		try {
+			TestHelpers.clickelement(Report);
+
+		} catch (Exception e) {
+			TestHelpers.clickelement(Report);
+		}
 		
 		logger.info("Ageing reports by Amount ");
 	}

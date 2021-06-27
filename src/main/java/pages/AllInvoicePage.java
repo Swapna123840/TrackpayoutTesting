@@ -1,6 +1,7 @@
 package pages;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -32,61 +33,66 @@ public class AllInvoicePage extends TestSetUp {
 	@FindBy(xpath = "//input[@placeholder='To Date']")
 	WebElement To_dt;
 
-	@FindBy(xpath = "//span[@class='btn btn-outline-primary']")//xpath........
+	@FindBy(xpath = "//span[@title='DOWNLOAD']/parent::div")
 	WebElement ReportDownload;
 
-	
 	@FindBy(xpath = "//i[@class='feather icon-download']")
 	List<WebElement> ReportDownloads;
 
 	@FindBy(xpath = "//a[@title='View']/i[@class='feather icon-eye']")
 	List<WebElement> Viewbuttons;
-	
+
 	@FindBy(xpath = "//strong[contains(text(),'Payment details')]")
 	WebElement paydetails;
-	
+
 	@FindBy(xpath = "//strong[contains(text(),'Payment Date details')]")
 	WebElement payDtdetails;
-	
+
 	@FindBy(xpath = "//button[@type='button' and @class='btn btn-secondary']")
 	WebElement Closebtn;
-	
+
 	@FindBy(xpath = "//button[@class='close']")
 	WebElement Closebtnx;
-	
+
 	@FindBy(xpath = "//a[@class='ng-star-inserted']/i[@class='feather icon-edit']")
 	List<WebElement> Editbuttons;
-	
-	@FindBy(xpath = "//i[@class='feather icon-edit']")
+
+	@FindBy(xpath = "//tbody/tr[8]/td[9]/a[2]")
 	WebElement Editbutton;
-	
+
 	@FindBy(id = "invoice_amount")
 	WebElement Inv_amount;
-	
-	@FindBy(xpath = "//button[contains(text(),'Submit')]")
+
+	@FindBy(xpath = "//button[@type='submit' and contains(text(),'Submit')]")
 	WebElement Edisubmit;
-	
+
+	@FindBy(xpath = "//textarea[@id='payment_type' ]")
+	WebElement PayDescription;
+
 	@FindBy(xpath = "//button[contains(text(),'OK')]")
 	WebElement OkAlert;
-	
-	@FindBy(xpath = "//a[@title='Delete']/i[@class='feather icon-trash-2']")
-	
-	//@FindBy(xpath = "//i[@class='feather icon-trash-2']")
-	List<WebElement> Deletebuttons;
-	
+
+	@FindBy(xpath = "//a[@title='Cancel Invoice']")
+	List<WebElement> CancelInvoicebtn;
+
 	@FindBy(xpath = "//button[contains(text(),'Remove') and @class='btn btn-danger']")
 	WebElement Removebtn;
-	
-	
-	@FindBy(xpath = "//a[@title='Download Attachments']//i[@class='feather icon-download']")//xpath..issue
+
+	@FindBy(xpath = "//a[@title='Download Attachments' and @class='ng-star-inserted']/i") // xpath..issue
 	List<WebElement> DownAttachments;
-	
+
 	@FindBy(xpath = "//a[@title='Followup Details']//i[@class='feather icon-mail']")
 	List<WebElement> FollowupDetails;
-	
-	
-	
-	
+
+	@FindBy(xpath = "//button[@type='button']")
+	List<WebElement> FollowupClose;
+
+	@FindBy(xpath = "//a[@title='Cancel Invoice']")
+	List<WebElement> CancelInv;
+
+	@FindBy(xpath = "//button[contains(text(),'Remove')]")
+	WebElement RemInv;
+
 	public AllInvoicePage() {
 
 		PageFactory.initElements(driver, this);
@@ -103,103 +109,132 @@ public class AllInvoicePage extends TestSetUp {
 		logger.info("Search");
 
 	}
+	public void Verify_AllInvoice_SearchInvoice(String invno) {
 
-		public void Report_Download() {
+		String searchInv = driver.findElement(By.xpath("//app-card[@cardtitle='All Invoices']//tbody/tr/td[5]"))
+				.getText();
 
-		 TestHelpers.clickelement(ReportDownload);
+		if (invno.equalsIgnoreCase(searchInv)) {
 
-		//TestHelpers.clickelement(ReportDownloads.get(0));
-		
+			System.out.println("Added Invoice no. matched with searched invoice");
+		} else {
+			System.out.println("Added Invoice no. not  matched with searched invoice");
+
+		}
+	}
+	
+	public void Report_Download() {
+
+		try {
+
+			TestHelpers.clickelement(ReportDownload);
+
+		} catch (Exception e) {
+
+			TestHelpers.clickelement(ReportDownload);
+		}
 
 		logger.info("Report download");
 
 	}
 
-	public void View_Edit_Delete_Invoice() {
+	public void ViewAllInvoice() {
 
 		TestHelpers.clickelement(Viewbuttons.get(0));
-		
+
 		TestHelpers.clickelement(paydetails);
 
 		TestHelpers.clickelement(payDtdetails);
-		
+
 		TestHelpers.clickelement(Closebtn);
 
 		logger.info("close Invoice");
-		
-		//TestHelpers.clickelement(Editbuttons.get(0));
+
+	}
+
+	public void followup() {
+
+		try {
+			TestHelpers.clickelement(FollowupDetails.get(0));
+
+			logger.info(" followup icon available, Followup details display");
+
+			TestHelpers.clickelement(FollowupClose.get(3));
+
+		} catch (NoSuchElementException e) {
+			logger.info(" followup icon is not available");
+		}
+	}
+
+	public void downloadAttachment() {
+		try {
+			try {
+				TestHelpers.clickelement(DownAttachments.get(0));
+
+			} catch (Exception e) {
+				TestHelpers.clickelement(DownAttachments.get(0));
+			}
+
+			logger.info(" Download attachment icon available, Attachment download");
+
+		} catch (NoSuchElementException e) {
+			logger.info(" Download attachment icon  not available");
+		}
+	}
+
+	public void UnpaidInv_Edit() {
 		
 		try {
-			
 			TestHelpers.clickelement(Editbutton);
 
-		} catch (Exception e) {
-			
-			TestHelpers.clickelement(Editbutton);
+		} catch (NoSuchElementException e) {
+			System.out.println("No such element present");
+		
 		}
 
-		
-		logger.info("Edit Invoice");
-		
-		TestHelpers.addtext(Inv_amount, "79328");
-		
 		TestHelpers.clickelement(Edisubmit);
 
 		boolean res = driver.getPageSource().contains("	Invoice has been updated successfully!");
 
 		if (res == true) {
-			
+
 			Assert.assertTrue(true);
-			
-			logger.info("test case passed....Invoice has been updated successfully!");
+
+			logger.info("test case passed....Invoice not updated successfully!");
 
 		} else {
-			
-			logger.info("test case passed...Invoice not updated successfully!");
-			
+			logger.info("test case passed..Invoice has been updated successfully!");
+
 			Assert.assertTrue(true);
 		}
-		
+
 		TestHelpers.clickelement(OkAlert);
-		
+
 		logger.info("Invoice Updated");
-		
-		
 
-			
-			TestHelpers.clickelement(Deletebuttons.get(0));
+	}
 
-			
-			logger.info("Delete Invoice");
+	public void cancelInvoice() {
+		try {
+			TestHelpers.Actionclick(CancelInv.get(0));
+		} catch (Exception e) {
+			TestHelpers.Actionclick(CancelInv.get(0));
 
-			TestHelpers.clickelement(Removebtn);
-		
-			boolean rem = driver.getPageSource().contains("Invoice has been removed successfully!");
+		}
 
-			if (rem == true) {
-				
-				Assert.assertTrue(true);
-				
-				logger.info("test case passed....Invoice has been removed successfully!");
+		logger.info("Delete Invoice");
 
-			}
+		TestHelpers.Actionclick(RemInv);
 
-			logger.info("RemovePopup... Invoice");
-		
-		
-			
-			TestHelpers.clickelement(FollowupDetails.get(0));
-			
-			logger.info("Followup details display");
+		boolean rem = driver.getPageSource().contains("Invoice has been removed successfully!");
 
-		
-		
-	/*	not working...............
-	 * 	TestHelpers.clickelement(DownAttachments.get(0));
-			
-			logger.info("Download Attachments");*/
+		if (rem == true) {
 
+			Assert.assertTrue(true);
 
+			logger.info("test case passed....Invoice has been removed successfully!");
+
+		}
 	}
 
 }

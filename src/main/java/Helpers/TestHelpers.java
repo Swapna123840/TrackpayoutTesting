@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import SetUp.TestSetUp;
+import java.util.UUID;
 
 public class TestHelpers extends TestSetUp {
 
@@ -33,30 +34,29 @@ public class TestHelpers extends TestSetUp {
 		wait.until(ExpectedConditions.visibilityOf(element));
 		element.clear();
 		element.sendKeys(text);
-		//return text;
 		return text;
 	}
 	
 	
 	public static void clickelement(WebElement element) 
 	{
-		WebDriverWait wait = new WebDriverWait(driver, PAGE_LOAD_TIMEOUT);
-		wait.until(ExpectedConditions.elementToBeClickable(element));
-		element.click();
+		
+			WebDriverWait wait = new WebDriverWait(driver, PAGE_LOAD_TIMEOUT);
+			wait.until(ExpectedConditions.elementToBeClickable(element));
+			element.click();		
 		
 	}
 	
 	// For input date
 	
-	public static void inputdate(String element_id, String date) {
-
-		String docStr = "document.getElementById('" + element_id + "').removeAttribute('readonly',0);";
-		((JavascriptExecutor) driver).executeScript(docStr);
-		WebElement InputDate = driver.findElement(By.id(element_id));
-
-		InputDate.clear();
-		InputDate.sendKeys(date);
+	public static void inputdate(WebElement InputDate, String date) 
+	{
+		InputDate.click();
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].removeAttribute('readonly',0)", InputDate);
+	    InputDate.sendKeys(date);	
 	}
+
 
 	// Dropdown-Select by index
 	
@@ -80,11 +80,19 @@ public class TestHelpers extends TestSetUp {
 	
 	public static String randomeNum() { 
 		
- 	String generatestring2=RandomStringUtils.randomNumeric(4); 
+ 	String generatestring2=RandomStringUtils.randomNumeric(10); 
  		
  	return(generatestring2);
  	
   }
+	
+	
+	  public static String UUID() {
+	        UUID uuid = UUID.randomUUID();
+	        String uuidAsString = uuid.toString();
+	     	return(uuidAsString);
+	    }
+	
 	// From date-To date calender
 	
 	public static void enterdate(WebElement element_id, String date) {
@@ -140,5 +148,27 @@ public class TestHelpers extends TestSetUp {
 		dateBox.sendKeys(Keys.TAB);
 		}
 	
+	//dropdown........
+	public static void dropdown(WebElement element) {
+		
+		WebElement dept_dropdown = element;
+		Select dept = new Select(dept_dropdown);
+		List<WebElement> dropdown = dept.getOptions();
+		for (int i = 0; i < dropdown.size(); i++) {
+			Select depart = new Select(element);
+			depart.selectByIndex(i);
+			
+			String drop_down_values = dropdown.get(i).getText();
+			
+			System.out.println("dropdown values are " + drop_down_values);
+	}
+}
+	
+	public static void clickele(WebElement ele) {
+	WebDriverWait wait = new WebDriverWait(driver, 10);
+	WebElement element = wait.until(ExpectedConditions.elementToBeClickable(ele)); 
+	((JavascriptExecutor)driver).executeScript("arguments[0].click();", element);
+	
 }
 
+}
